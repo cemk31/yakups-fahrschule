@@ -1,0 +1,108 @@
+{
+  "blog_post": {
+    "name": "blog_post",
+    "display_name": "Blog Post",
+    "schema": {
+      "title": {
+        "type": "text",
+        "display_name": "Titel",
+        "required": true
+      },
+      "excerpt": {
+        "type": "textarea",
+        "display_name": "Teaser / Kurzfassung",
+        "description": "1-2 Sätze für Übersicht und SEO"
+      },
+      "featuredImage": {
+        "type": "asset",
+        "display_name": "Cover-Bild",
+        "filetypes": ["images"]
+      },
+      "category": {
+        "type": "option",
+        "display_name": "Kategorie",
+        "use_uuid": false,
+        "source": "internal",
+        "options": [
+          { "name": "PKW-Führerschein", "value": "PKW" },
+          { "name": "LKW & BKF", "value": "LKW" },
+          { "name": "Förderung", "value": "Foerderung" },
+          { "name": "Prüfung", "value": "Pruefung" },
+          { "name": "Fahrschule", "value": "Fahrschule" },
+          { "name": "Standorte", "value": "Standorte" }
+        ]
+      },
+      "tags": {
+        "type": "text",
+        "display_name": "Tags (optional)",
+        "description": "Komma-getrennt, z.B. 'Theorie, Prüfung, Klasse B'"
+      },
+      "publishedDate": {
+        "type": "datetime",
+        "display_name": "Veröffentlichungsdatum",
+        "required": true,
+        "description": "Bestimmt die Sortierung in der Übersicht"
+      },
+      "authorName": {
+        "type": "text",
+        "display_name": "Autor (optional)",
+        "description": "Wird unter dem Titel angezeigt"
+      },
+      "readingTime": {
+        "type": "text",
+        "display_name": "Lesezeit (optional)",
+        "description": "z.B. '3 Min.'"
+      },
+      "body": {
+        "type": "richtext",
+        "display_name": "Inhalt",
+        "description": "Der eigentliche Artikel-Text"
+      },
+      "sourceNetwork": {
+        "type": "option",
+        "display_name": "Quelle (optional)",
+        "options": [
+          { "name": "Manuell verfasst", "value": "manual" },
+          { "name": "Instagram-Import", "value": "instagram" },
+          { "name": "Facebook-Import", "value": "facebook" }
+        ]
+      },
+      "seo": {
+        "type": "bloks",
+        "display_name": "SEO",
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": ["seo"]
+      }
+    },
+    "is_root": true,
+    "is_nestable": false
+  },
+  "blog_index": {
+    "name": "blog_index",
+    "display_name": "Blog Index",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Lead-Text (optional)"
+      },
+      "emptyStateText": {
+        "type": "text",
+        "display_name": "Text bei leerer Liste",
+        "default_value": "Bald gibt's hier die ersten Beiträge."
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

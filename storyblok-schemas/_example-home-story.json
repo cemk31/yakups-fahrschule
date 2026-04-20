@@ -1,0 +1,175 @@
+{
+  "_comment": "Beispiel-Content für die Homepage. Kann per Management-API importiert oder als Referenz zum manuellen Befüllen genutzt werden.",
+  "name": "Home",
+  "slug": "home",
+  "content": {
+    "component": "page",
+    "title": "Home",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "Seit April 2026 auch in Hilter a.T.W.",
+        "headline": "Dein Weg zum Führerschein",
+        "description": "Moderne Fahrausbildung in Bad Iburg und Hilter — von Klasse B bis LKW. Neueste Medientechnik, erfahrene Fahrlehrer, volle Unterstützung beim Papierkram.",
+        "primaryCtaLabel": "PKW-Führerschein",
+        "primaryCtaLink": { "linktype": "story", "cached_url": "fuehrerschein-klasse-b" },
+        "secondaryCtaLabel": "LKW-Führerschein",
+        "secondaryCtaLink": { "linktype": "story", "cached_url": "lkw-fuehrerschein" },
+        "imageBadge": "4,9 / 5 bei Google",
+        "stats": [
+          { "component": "hero_stat", "value": "180", "accent": "m²", "label": "Schulungszentrum" },
+          { "component": "hero_stat", "value": "2", "accent": "×", "label": "Standorte" },
+          { "component": "hero_stat", "value": "7", "accent": "+", "label": "Jahre Erfahrung" }
+        ]
+      },
+      {
+        "component": "usp_strip",
+        "items": [
+          { "component": "usp_item", "icon": "calendar", "title": "Seit 2018", "subtitle": "Etablierte Fahrschule" },
+          { "component": "usp_item", "icon": "location", "title": "2 Standorte", "subtitle": "Bad Iburg & Hilter" },
+          { "component": "usp_item", "icon": "screen", "title": "Moderne Technik", "subtitle": "Digitaler Unterricht" },
+          { "component": "usp_item", "icon": "sparkle", "title": "180 m² Räume", "subtitle": "Hell & freundlich" }
+        ]
+      },
+      {
+        "component": "class_grid",
+        "tagline": "Ausbildung",
+        "headline": "Alle Führerscheinklassen an einem Ort.",
+        "sideLinkLabel": "Alle Klassen ansehen",
+        "sideLink": { "linktype": "story", "cached_url": "fuehrerscheine" },
+        "cards": [
+          {
+            "component": "class_card",
+            "title": "PKW & Motorrad",
+            "description": "Der klassische Weg zum Führerschein — ab 16 Jahren möglich, begleitet oder regulär.",
+            "tags": "Klasse B, BE, B96, B196, A / A1 / A2",
+            "icon": "car",
+            "ctaLabel": "Zu den Klassen",
+            "ctaLink": { "linktype": "story", "cached_url": "fuehrerschein-klasse-b" },
+            "highlighted": false,
+            "numberLabel": "01"
+          },
+          {
+            "component": "class_card",
+            "title": "LKW & Berufskraftfahrer",
+            "description": "Vom C1 bis zum Sattelzug. Mit Förderungsberatung durch Arbeitsagentur und Jobcenter.",
+            "tags": "Klasse C, CE, C1 / C1E, BKF, Weiterbildung",
+            "icon": "truck",
+            "ctaLabel": "Zu LKW & BKF",
+            "ctaLink": { "linktype": "story", "cached_url": "lkw-fuehrerschein" },
+            "highlighted": true,
+            "numberLabel": "02"
+          }
+        ]
+      },
+      {
+        "component": "lkw_spotlight",
+        "tagline": "LKW-Führerschein",
+        "headline": "Dein Einstieg als Berufskraftfahrer",
+        "description": "Vom C1 bis CE — in 5 strukturierten Schritten zum LKW-Führerschein. Förderung durch Arbeitsagentur bis zu 100% möglich.",
+        "primaryCtaLabel": "Kostenlose Beratung",
+        "primaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "secondaryCtaLabel": "Förderung prüfen",
+        "secondaryCtaLink": { "linktype": "story", "cached_url": "lkw-fuehrerschein-foerderung" },
+        "steps": [
+          { "component": "spotlight_step", "title": "Kostenfreie Beratung", "description": "Unverbindliches Gespräch, Klassenwahl, Ablauf klären." },
+          { "component": "spotlight_step", "title": "Förderung prüfen", "description": "Arbeitsagentur, Jobcenter, Arbeitgeber — wir helfen." },
+          { "component": "spotlight_step", "title": "Theorieausbildung", "description": "Digital & flexibel. Prüfungssimulator inklusive." },
+          { "component": "spotlight_step", "title": "Praxis im LKW", "description": "Moderne Flotte, erfahrene Fahrlehrer, reale Strecken." },
+          { "component": "spotlight_step", "title": "Prüfung & Dein neuer Job", "description": "Prüfungsbegleitung, Bestehensgarantie-Tipps, Arbeitgeber-Kontakte.", "highlighted": true, "spanFull": true }
+        ]
+      },
+      {
+        "component": "reviews_section",
+        "tagline": "Bewertungen",
+        "averageRating": "4,9",
+        "totalCount": "Aus 87 verifizierten Google-Bewertungen",
+        "items": [
+          {
+            "component": "review_item",
+            "text": "Super freundliches Team und moderner Unterricht. LKW-Führerschein in nur drei Monaten geschafft!",
+            "author": "Marco K.",
+            "initials": "MK",
+            "context": "Klasse CE · März 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Yakup nimmt sich echt Zeit. Theorieunterricht ist top, Praxis entspannt. Klare Empfehlung.",
+            "author": "Sarah L.",
+            "initials": "SL",
+            "context": "Klasse B · Februar 2026",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "component": "faq_accordion",
+        "tagline": "Häufige Fragen",
+        "headline": "Alles, was du wissen willst.",
+        "items": [
+          {
+            "component": "faq_item",
+            "question": "Was kostet der LKW-Führerschein?",
+            "answer": "Die Kosten hängen von deinen Vorkenntnissen und der Klasse ab. Für Klasse C rechne mit ca. 3.500 bis 4.500 €, für CE zusätzlich 2.500 bis 3.500 €. Mit Bildungsgutschein der Arbeitsagentur kann die Ausbildung kostenlos sein. Wir beraten dich unverbindlich."
+          },
+          {
+            "component": "faq_item",
+            "question": "Wie lange dauert die Ausbildung zum LKW-Führerschein?",
+            "answer": "Je nach Klasse und deinem Zeitbudget 3 bis 6 Monate. Die Theorie umfasst 10 Doppelstunden Grundstoff plus Zusatzstoff für die LKW-Klasse. Die Praxis mindestens 10 Sonderfahrten plus Ausbildungsfahrten."
+          },
+          {
+            "component": "faq_item",
+            "question": "Welche Voraussetzungen brauche ich für Klasse B?",
+            "answer": "Mindestalter 17 (für begleitetes Fahren BF17) bzw. 18 Jahre. Sehtest, Erste-Hilfe-Kurs, Führerscheinantrag bei der Führerscheinstelle. Den Papierkram begleiten wir komplett."
+          },
+          {
+            "component": "faq_item",
+            "question": "Übernimmt die Arbeitsagentur den Führerschein?",
+            "answer": "Ja, bei uns als AZAV-zertifizierte Ausbildungsstätte kann die Arbeitsagentur den LKW-Führerschein per Bildungsgutschein zu 100% finanzieren. Voraussetzung ist die Zustimmung deines Vermittlers. Wir helfen bei der Antragstellung."
+          },
+          {
+            "component": "faq_item",
+            "question": "Bietet ihr auch Intensivkurse an?",
+            "answer": "Ja. Intensivkurse sind besonders für LKW-Ausbildungen und BKF-Module sinnvoll. Sprich uns einfach im Beratungsgespräch darauf an."
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Bereit durchzustarten?",
+        "description": "Ruf an, schreib auf WhatsApp oder melde dich direkt online an. Wir freuen uns auf dich.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "ink",
+            "icon": "phone"
+          },
+          {
+            "component": "cta_button",
+            "label": "WhatsApp",
+            "link": { "linktype": "url", "url": "https://wa.me/491743838353" },
+            "variant": "white",
+            "icon": "whatsapp"
+          },
+          {
+            "component": "cta_button",
+            "label": "Online anmelden",
+            "link": { "linktype": "url", "url": "https://fs0943.fso360-svc.de" },
+            "variant": "outline",
+            "icon": "arrow"
+          }
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Yakups Fahrschule — Führerschein in Bad Iburg & Hilter",
+        "description": "Moderne Fahrschule im Landkreis Osnabrück. PKW, Motorrad und LKW-Führerschein. AZAV-zertifiziert, Förderung durch Arbeitsagentur möglich."
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "_comment": "Standort-Landing-Page Bad Iburg. Root-Level slug 'bad-iburg' — wird über app/[...slug]/page.tsx gerendert.",
+  "name": "Standort Bad Iburg",
+  "slug": "bad-iburg",
+  "content": {
+    "component": "page",
+    "title": "Standort Bad Iburg",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "Unser Hauptstandort · seit 2018",
+        "headline": "Fahrschule in",
+        "headlineAccent": "Bad Iburg",
+        "description": "Münsterstraße 12 — mitten im Ort, fünf Minuten von der B51, direkt an der Bushaltestelle. Theorie, Anmeldung, Beratung und der Großteil unserer Praxis-Fahrstunden laufen hier.",
+        "primaryCtaLabel": "0174 3838353",
+        "primaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "secondaryCtaLabel": "Team kennenlernen",
+        "secondaryCtaLink": { "linktype": "story", "cached_url": "team" },
+        "imageBadge": "180 m² Schulungszentrum",
+        "stats": [
+          { "component": "hero_stat", "value": "180", "accent": "m²", "label": "Unterrichtsräume" },
+          { "component": "hero_stat", "value": "2", "accent": "×", "label": "Theoriekurse pro Woche" },
+          { "component": "hero_stat", "value": "7", "accent": "+", "label": "Jahre am Ort" }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Kontakt & Öffnungszeiten",
+        "headline": "So erreichst du",
+        "headlineAccent": "uns in Bad Iburg",
+        "description": "Theorie, Anmeldung und Beratung vor Ort — oder erreich uns einfach telefonisch. Vorbeischauen ohne Termin ist explizit erlaubt.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Adresse",
+            "description": "Münsterstraße 12\n49186 Bad Iburg\n\nParkplätze direkt vor der Tür, Bushaltestelle 'Marktplatz' 2 Minuten fußläufig.",
+            "badge": "Hauptstandort"
+          },
+          {
+            "component": "value_card",
+            "icon": "card",
+            "title": "Öffnungszeiten",
+            "description": "Mo – Fr: 10:00 – 18:00 Uhr\nSa: nach Termin\n\nTheorie: Mo + Mi, 18:00 – 19:30 Uhr\nLKW-Theorie: Di + Do, 17:00 – 19:00 Uhr",
+            "badge": "Immer aktuell"
+          },
+          {
+            "component": "value_card",
+            "icon": "shield",
+            "title": "Telefon & WhatsApp",
+            "description": "0174 3838353\n(Anruf oder WhatsApp)\n\nE-Mail: info@yakups-fahrschule.de\n\nWir antworten meist innerhalb von 2 Stunden werktags.",
+            "badge": "Mo – Fr"
+          }
+        ]
+      },
+      {
+        "component": "locations_map",
+        "tagline": "Anfahrt",
+        "headline": "Hier findest du",
+        "headlineAccent": "uns",
+        "locations": [
+          {
+            "component": "location_item",
+            "name": "Bad Iburg",
+            "address": "Münsterstraße 12, 49186 Bad Iburg",
+            "phone": "0174 3838353",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Münsterstraße+12+Bad+Iburg"
+            },
+            "badge": "Hauptstandort"
+          }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Unsere Räume",
+        "headline": "180 m²",
+        "headlineAccent": "Schulungszentrum",
+        "description": "Helle, ruhige Unterrichtsräume mit aktueller Medientechnik. Keine Kellerräume, keine Rauchbude — hier lernst du in einem Umfeld, in dem man gerne sitzt.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "building",
+            "title": "Hauptraum (bis 30 Pers.)",
+            "description": "Für Theoriekurse Klasse B, A und LKW-Grundstoff. Beamer, interaktives Whiteboard, kostenloses WLAN, Kaltgetränke gratis."
+          },
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Seminarraum klein",
+            "description": "Beratungsgespräche, BKF-Module in kleinen Gruppen, Nachholstunden. Ruhig, mit echter Tür — keine Glaskasten-Atmosphäre."
+          },
+          {
+            "component": "value_card",
+            "icon": "card",
+            "title": "Lounge & Kaffeeecke",
+            "description": "Zum Ankommen vor der Stunde. Espresso-Maschine, Kicker, ein paar bequeme Sessel. Dein Wartebereich zwischen Praxis- und Theoriestunden."
+          }
+        ]
+      },
+      {
+        "component": "license_class_grid",
+        "tagline": "Ausbildung vor Ort",
+        "headline": "Diese Klassen bilden wir",
+        "headlineAccent": "in Bad Iburg aus",
+        "description": "Alle Klassen — vom Roller bis zum Sattelzug — starten bei uns in Bad Iburg. Die Theorie für LKW und BKF findet ausschließlich hier statt.",
+        "classes": [
+          {
+            "component": "license_class_item",
+            "className": "Klasse B",
+            "shortDescription": "PKW — der Klassiker.",
+            "ageBadge": "ab 17 (BF17)",
+            "whatYouCanDrive": "PKW bis 3,5 t, Anhänger bis 750 kg.",
+            "typicalDuration": "3 – 5 Monate",
+            "approxCost": "ab 2.100 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse BE / B96",
+            "shortDescription": "Mit größerem Anhänger.",
+            "ageBadge": "ab 18",
+            "whatYouCanDrive": "B + Anhänger über 750 kg.",
+            "typicalDuration": "2 – 4 Wochen (Aufbau)",
+            "approxCost": "ab 650 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse A / A1 / A2",
+            "shortDescription": "Motorrad, gestuft.",
+            "ageBadge": "ab 16 / 18 / 24",
+            "whatYouCanDrive": "Motorrad je nach Klasse.",
+            "typicalDuration": "3 – 4 Monate",
+            "approxCost": "ab 1.900 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse C / CE",
+            "shortDescription": "LKW und Sattelzug.",
+            "ageBadge": "ab 21 (C1 ab 18)",
+            "highlightBadge": "Förderung möglich",
+            "whatYouCanDrive": "LKW über 7,5 t, mit CE auch Sattelzug.",
+            "typicalDuration": "3 – 6 Monate",
+            "approxCost": "ab 3.500 €",
+            "highlighted": true
+          }
+        ]
+      },
+      {
+        "component": "reviews_section",
+        "tagline": "Bewertungen · Bad Iburg",
+        "averageRating": "4,9",
+        "totalCount": "Aus 87 verifizierten Google-Bewertungen",
+        "items": [
+          {
+            "component": "review_item",
+            "text": "Super freundliches Team, der Theorieunterricht in Bad Iburg ist echt gut strukturiert. Yakup nimmt sich Zeit für Fragen, auch nach der Stunde noch.",
+            "author": "Marco K.",
+            "initials": "MK",
+            "context": "Klasse CE · März 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Entspannte Atmosphäre, moderne Räume, keine Angst vor dummen Fragen. Ich habe B auf Anhieb bestanden — lag sicher auch am Prüfungssimulator hier.",
+            "author": "Sarah L.",
+            "initials": "SL",
+            "context": "Klasse B · Februar 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Standortwechsel zu Yakup war die beste Entscheidung. Organisation ist deutlich professioneller als bei meiner vorherigen Fahrschule, und die Preise sind fair.",
+            "author": "Jonas B.",
+            "initials": "JB",
+            "context": "Klasse B (Umstieg) · Januar 2026",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Lernst du lieber dein Team persönlich kennen?",
+        "description": "Kein Verkaufsgespräch, keine Anmeldung nötig. Komm einfach vorbei oder schau dir das Team online an — dann weißt du, mit wem du in den nächsten Monaten Zeit verbringst.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Team ansehen",
+            "link": { "linktype": "story", "cached_url": "team" },
+            "variant": "ink",
+            "icon": "arrow"
+          },
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "outline",
+            "icon": "phone"
+          }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "tagline": "Kontakt",
+        "headline": "Frag uns einfach",
+        "headlineAccent": "direkt",
+        "description": "Schreib uns kurz, was du vorhast — wir melden uns innerhalb von 24 Stunden zurück. Kein Verkaufsdruck, kein Newsletter, nur eine ehrliche Antwort.",
+        "anchorId": "kontakt",
+        "topics": [
+          { "component": "topic_option", "label": "Infos zum PKW-Führerschein (B / BE)" },
+          { "component": "topic_option", "label": "Infos zum Motorrad (A / A1 / A2)" },
+          { "component": "topic_option", "label": "LKW / BKF & Förderung" },
+          { "component": "topic_option", "label": "Termin für Beratung vor Ort" },
+          { "component": "topic_option", "label": "Sonstiges" }
+        ],
+        "helperText": "Wir antworten werktags innerhalb von 24 Stunden. Vertraulich — deine Anfrage landet nicht in einem CRM und wird nicht weitergegeben."
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Fahrschule Bad Iburg · Münsterstraße 12 | Yakups Fahrschule",
+        "description": "Fahrschule in Bad Iburg: 180 m² Schulungszentrum in der Münsterstraße 12. Theorie, Anmeldung und Praxis für Klasse B, A, C und CE. Jetzt unverbindlich anfragen."
+      }
+    ]
+  }
+}

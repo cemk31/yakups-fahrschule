@@ -1,0 +1,45 @@
+{
+  "download_section": {
+    "name": "download_section",
+    "display_name": "Download Section",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": { "type": "text", "display_name": "Headline", "required": true },
+      "headlineAccent": { "type": "text", "display_name": "Headline-Akzent (grün)" },
+      "description": { "type": "textarea", "display_name": "Beschreibung" },
+      "items": {
+        "type": "bloks",
+        "display_name": "Downloads",
+        "restrict_components": true,
+        "component_whitelist": ["download_item"]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "download_item": {
+    "name": "download_item",
+    "display_name": "Download Item",
+    "schema": {
+      "title": { "type": "text", "display_name": "Titel", "required": true },
+      "description": { "type": "textarea", "display_name": "Beschreibung" },
+      "file": {
+        "type": "asset",
+        "display_name": "Datei (PDF/DOCX)",
+        "filetypes": ["pdfs", "documents"]
+      },
+      "fileSize": {
+        "type": "text",
+        "display_name": "Dateigröße",
+        "description": "Manuell pflegen, z.B. '240 KB'"
+      },
+      "fileType": {
+        "type": "text",
+        "display_name": "Dateityp",
+        "description": "z.B. 'PDF' (sonst aus Endung abgeleitet)"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

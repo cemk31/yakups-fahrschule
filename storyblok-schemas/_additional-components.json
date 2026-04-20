@@ -1,0 +1,75 @@
+{
+  "hero_stat": {
+    "name": "hero_stat",
+    "display_name": "Hero Stat",
+    "schema": {
+      "value": { "type": "text", "display_name": "Zahl", "required": true },
+      "accent": { "type": "text", "display_name": "Einheit (grün)" },
+      "label": { "type": "text", "display_name": "Label", "required": true }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "usp_strip": {
+    "name": "usp_strip",
+    "display_name": "USP Strip",
+    "schema": {
+      "items": {
+        "type": "bloks",
+        "display_name": "USP Items",
+        "maximum": 4,
+        "restrict_components": true,
+        "component_whitelist": ["usp_item"]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "usp_item": {
+    "name": "usp_item",
+    "display_name": "USP Item",
+    "schema": {
+      "icon": {
+        "type": "option",
+        "display_name": "Icon",
+        "required": true,
+        "options": [
+          { "name": "Kalender", "value": "calendar" },
+          { "name": "Ort", "value": "location" },
+          { "name": "Bildschirm", "value": "screen" },
+          { "name": "Funkeln", "value": "sparkle" }
+        ]
+      },
+      "title": { "type": "text", "display_name": "Titel", "required": true },
+      "subtitle": { "type": "text", "display_name": "Untertitel" }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "faq_accordion": {
+    "name": "faq_accordion",
+    "display_name": "FAQ Accordion",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": { "type": "text", "display_name": "Headline", "required": true },
+      "items": {
+        "type": "bloks",
+        "display_name": "Fragen",
+        "restrict_components": true,
+        "component_whitelist": ["faq_item"]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "faq_item": {
+    "name": "faq_item",
+    "display_name": "FAQ Item",
+    "schema": {
+      "question": { "type": "text", "display_name": "Frage", "required": true },
+      "answer": { "type": "textarea", "display_name": "Antwort", "required": true }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

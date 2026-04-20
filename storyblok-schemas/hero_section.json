@@ -1,0 +1,60 @@
+{
+  "name": "hero_section",
+  "display_name": "Hero Section",
+  "schema": {
+    "tagline": {
+      "type": "text",
+      "display_name": "Tagline (oberer Pill)",
+      "description": "z.B. 'Seit April 2026 auch in Hilter a.T.W.'"
+    },
+    "headline": {
+      "type": "text",
+      "display_name": "Headline",
+      "required": true
+    },
+    "headlineAccent": {
+      "type": "text",
+      "display_name": "Headline-Akzent (grün)",
+      "description": "Optional: Text nach dem Punkt, grün eingefärbt"
+    },
+    "description": {
+      "type": "textarea",
+      "display_name": "Beschreibungstext"
+    },
+    "primaryCtaLabel": {
+      "type": "text",
+      "display_name": "Primärer CTA - Text"
+    },
+    "primaryCtaLink": {
+      "type": "multilink",
+      "display_name": "Primärer CTA - Link"
+    },
+    "secondaryCtaLabel": {
+      "type": "text",
+      "display_name": "Sekundärer CTA - Text"
+    },
+    "secondaryCtaLink": {
+      "type": "multilink",
+      "display_name": "Sekundärer CTA - Link"
+    },
+    "image": {
+      "type": "asset",
+      "display_name": "Hero-Bild",
+      "filetypes": ["images"]
+    },
+    "imageBadge": {
+      "type": "text",
+      "display_name": "Bild-Badge",
+      "description": "z.B. '4,9 / 5 bei Google'"
+    },
+    "stats": {
+      "type": "bloks",
+      "display_name": "Kennzahlen",
+      "maximum": 3,
+      "restrict_components": true,
+      "component_whitelist": ["hero_stat"]
+    }
+  },
+  "is_root": false,
+  "is_nestable": true
+}

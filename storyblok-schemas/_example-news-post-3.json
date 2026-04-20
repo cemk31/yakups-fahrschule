@@ -1,0 +1,111 @@
+{
+  "_comment": "Beispiel-Blog-Post: Eröffnung Hilter im März 2026",
+  "name": "Eröffnung Standort Hilter — Fahrschule jetzt auch im Teutoburger Wald",
+  "slug": "news/eroeffnung-hilter",
+  "content": {
+    "component": "blog_post",
+    "title": "Wir sind jetzt auch in Hilter a.T.W.",
+    "excerpt": "Seit März 2026 hat Yakups Fahrschule einen zweiten Standort: Münsterstraße 34 in Hilter. Gleiche Fahrlehrer, kürzere Wege.",
+    "category": "Standorte",
+    "tags": "Hilter, Standort, Eröffnung, Teutoburger Wald",
+    "publishedDate": "2026-03-01 12:00",
+    "authorName": "Yakup Yılmaz",
+    "readingTime": "3 Min.",
+    "sourceNetwork": "manual",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Viele unserer Fahrschüler:innen kommen aus Hilter und den umliegenden Ortschaften — und haben in den letzten Jahren oft gefragt: „Warum müssen wir für die Theorie eigentlich jedes Mal nach Bad Iburg?“ Ab sofort müssen sie das nicht mehr."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Was neu ist" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Im März 2026 haben wir in der Münsterstraße 34 in Hilter a.T.W. einen kompletten Unterrichts- und Anmeldestandort eröffnet. Theorie, Beratung, Anmeldung — alles vor Ort. Die Praxis-Fahrstunden starten wahlweise in Hilter oder Bad Iburg, je nachdem, was für dich besser passt."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Öffnungszeiten Hilter" }]
+        },
+        {
+          "type": "bullet_list",
+          "content": [
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Dienstag & Donnerstag: 17:00-19:00 Uhr Theorie" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Nach Termin: Anmeldung und Beratung" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Gleiches Team, gleiche Preise" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Damit das klar ist: Es gibt keine „Hilter-Ausgabe“ der Fahrschule. Das ist dasselbe Team, dasselbe Lehrkonzept, dieselben Preise. Du kannst im laufenden Kurs sogar zwischen den Standorten wechseln, ohne etwas nachzahlen zu müssen."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            { "type": "text", "text": "Wir freuen uns auf dich — vorbeischauen ohne Termin ist explizit erlaubt. " },
+            {
+              "type": "text",
+              "marks": [
+                { "type": "link", "attrs": { "href": "/team", "linktype": "url" } }
+              ],
+              "text": "Hier lernst du unser Team kennen"
+            },
+            { "type": "text", "text": "." }
+          ]
+        }
+      ]
+    },
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Neuer Standort Hilter a.T.W. | Yakups Fahrschule",
+        "description": "Seit März 2026 hat Yakups Fahrschule einen zweiten Standort in Hilter a.T.W. (Münsterstraße 34). Theorie, Anmeldung und Beratung jetzt auch am Teutoburger Wald."
+      }
+    ]
+  }
+}

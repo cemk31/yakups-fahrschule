@@ -1,0 +1,5 @@
+git init
+git branch -M main
+git add .
+git status   # Sicherheits-Check: .env.local darf NICHT in der Liste stehen
+git commit -m "Initial commit: Yakups Fahrschule (Next.js 16 + Storyblok)"

@@ -1,0 +1,46 @@
+{
+  "name": "page",
+  "display_name": "Page",
+  "schema": {
+    "title": {
+      "type": "text",
+      "display_name": "Title (intern)",
+      "required": true,
+      "description": "Nur für die interne Storyblok-Liste, nicht SEO-Title"
+    },
+    "body": {
+      "type": "bloks",
+      "display_name": "Body",
+      "restrict_components": true,
+      "component_whitelist": [
+        "hero_section",
+        "usp_strip",
+        "class_grid",
+        "faq_accordion",
+        "lkw_spotlight",
+        "process_steps",
+        "pricing_table",
+        "locations_map",
+        "team_grid",
+        "blog_teaser",
+        "reviews_section",
+        "cta_section",
+        "value_cards",
+        "license_class_grid",
+        "comparison_table",
+        "download_section",
+        "contact_form",
+        "blog_index"
+      ]
+    },
+    "seo": {
+      "type": "bloks",
+      "display_name": "SEO",
+      "maximum": 1,
+      "restrict_components": true,
+      "component_whitelist": ["seo"]
+    }
+  },
+  "is_root": true,
+  "is_nestable": false
+}

@@ -1,0 +1,83 @@
+{
+  "comparison_table": {
+    "name": "comparison_table",
+    "display_name": "Comparison Table",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": { "type": "text", "display_name": "Headline", "required": true },
+      "headlineAccent": { "type": "text", "display_name": "Headline-Akzent (grün)" },
+      "description": { "type": "textarea", "display_name": "Beschreibung" },
+      "featureColumnLabel": {
+        "type": "text",
+        "display_name": "Erste Spalte",
+        "default_value": "Eigenschaft"
+      },
+      "classes": {
+        "type": "bloks",
+        "display_name": "Klassen-Spalten",
+        "restrict_components": true,
+        "component_whitelist": ["comparison_class"],
+        "minimum": 2,
+        "maximum": 5
+      },
+      "rows": {
+        "type": "bloks",
+        "display_name": "Zeilen",
+        "restrict_components": true,
+        "component_whitelist": ["comparison_row"]
+      },
+      "footnote": { "type": "textarea", "display_name": "Fußnote" }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "comparison_class": {
+    "name": "comparison_class",
+    "display_name": "Comparison Class (Spalte)",
+    "schema": {
+      "className": {
+        "type": "text",
+        "display_name": "Klasse",
+        "required": true,
+        "description": "z.B. 'B' (ohne 'Klasse '-Präfix)"
+      },
+      "shortDescription": {
+        "type": "text",
+        "display_name": "Kurzbeschreibung",
+        "description": "z.B. 'PKW bis 3,5 t'"
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben",
+        "description": "Markiert die empfohlene Klasse"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "comparison_row": {
+    "name": "comparison_row",
+    "display_name": "Comparison Row (Zeile)",
+    "schema": {
+      "feature": {
+        "type": "text",
+        "display_name": "Eigenschaft",
+        "required": true,
+        "description": "z.B. 'Mindestalter'"
+      },
+      "values": {
+        "type": "text",
+        "display_name": "Werte (komma-getrennt)",
+        "required": true,
+        "description": "Werte je Spalte in derselben Reihenfolge wie die Klassen, z.B. '17 (BF17), 18, 18, 18'"
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Zeile hervorheben",
+        "description": "z.B. für 'Richtkosten'-Zeile"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

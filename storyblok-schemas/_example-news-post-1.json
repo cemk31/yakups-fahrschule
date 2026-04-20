@@ -1,0 +1,132 @@
+{
+  "_comment": "Beispiel-Blog-Post: Neuer Theoriekurs startet am 03.06.",
+  "name": "Neuer Theoriekurs startet am 03. Juni",
+  "slug": "news/neuer-theoriekurs-juni",
+  "content": {
+    "component": "blog_post",
+    "title": "Neuer Theoriekurs startet am 03. Juni",
+    "excerpt": "Der nächste Intensiv-Theoriekurs für Klasse B startet am 3. Juni in Bad Iburg. 14 Termine, abends, letzte Plätze.",
+    "category": "PKW",
+    "tags": "Theorie, Klasse B, Intensivkurs",
+    "publishedDate": "2026-04-15 09:00",
+    "authorName": "Ayşe Kara",
+    "readingTime": "2 Min.",
+    "sourceNetwork": "manual",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Der nächste Intensiv-Theoriekurs für "
+            },
+            { "type": "text", "marks": [{ "type": "bold" }], "text": "Klasse B" },
+            {
+              "type": "text",
+              "text": " bei uns in Bad Iburg startet am Mittwoch, 3. Juni 2026 um 18:00 Uhr. Insgesamt umfasst der Kurs 14 Termine (12 Grundstoff + 2 Zusatzstoff B) und endet damit rechtzeitig für eine Theorieprüfung Ende Juli."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Das solltest du wissen" }]
+        },
+        {
+          "type": "bullet_list",
+          "content": [
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Termine: Mo + Mi, jeweils 18:00-19:30 Uhr" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Ort: Unterrichtsraum Bad Iburg, Münsterstraße 12" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Lehrbuch & Login für die Lern-App bekommst du im ersten Termin" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Verpasste Termine lassen sich im Hilter-Kurs nachholen" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Letzte Plätze" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Es sind noch 4 Plätze frei. Wer sich schon für die praktische Ausbildung vormerken möchte, sollte direkt nach der Anmeldung zum Theoriekurs auch einen Starttermin für die Fahrstunden vereinbaren — wir sind ab Mitte Juli gut gebucht."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            { "type": "text", "text": "Anmeldung telefonisch unter " },
+            {
+              "type": "text",
+              "marks": [
+                { "type": "link", "attrs": { "href": "tel:+491743838353", "linktype": "url" } }
+              ],
+              "text": "0174 3838353"
+            },
+            { "type": "text", "text": " oder direkt per Formular auf der " },
+            {
+              "type": "text",
+              "marks": [
+                { "type": "link", "attrs": { "href": "/team", "linktype": "url" } }
+              ],
+              "text": "Team-Seite"
+            },
+            { "type": "text", "text": "." }
+          ]
+        }
+      ]
+    },
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Neuer Theoriekurs B ab 03. Juni 2026 | Yakups Fahrschule",
+        "description": "Intensiv-Theoriekurs für Klasse B startet am 3. Juni 2026 in Bad Iburg. 14 Termine abends. Letzte Plätze — jetzt anmelden."
+      }
+    ]
+  }
+}

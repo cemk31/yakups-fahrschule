@@ -1,0 +1,272 @@
+{
+  "_comment": "Beispiel-Content für die PKW-Führerscheine Seite. Slug: 'fuehrerscheine'. Content-Type: 'page'. Kann als Referenz beim manuellen Anlegen oder per Management-API importiert werden.",
+  "name": "Führerscheine",
+  "slug": "fuehrerscheine",
+  "content": {
+    "component": "page",
+    "title": "Führerscheine",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "PKW & Zweirad",
+        "headline": "Dein PKW-Führerschein",
+        "headlineAccent": "in Bad Iburg",
+        "description": "Klasse B, BE, B96 und B197 — wir bringen dich sicher durch die Theorie und entspannt durch die Praxis. Mit moderner Flotte, BF17 ab 16,5 Jahren und voller Unterstützung beim Papierkram.",
+        "primaryCtaLabel": "Jetzt anmelden",
+        "primaryCtaLink": { "linktype": "url", "url": "https://fs0943.fso360-svc.de" },
+        "secondaryCtaLabel": "Beratung anfragen",
+        "secondaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "imageBadge": "BF17 möglich",
+        "stats": [
+          { "component": "hero_stat", "value": "4,9", "accent": "/5", "label": "Google-Bewertung" },
+          { "component": "hero_stat", "value": "98", "accent": "%", "label": "Bestehensquote" },
+          { "component": "hero_stat", "value": "16,5", "accent": "J", "label": "Frühstart möglich" }
+        ]
+      },
+      {
+        "component": "usp_strip",
+        "items": [
+          { "component": "usp_item", "icon": "calendar", "title": "BF17", "subtitle": "Ab 16,5 Jahren beginnen" },
+          { "component": "usp_item", "icon": "screen", "title": "Digital", "subtitle": "App-basierte Theorie" },
+          { "component": "usp_item", "icon": "sparkle", "title": "Neue Flotte", "subtitle": "Aktuelle Fahrzeuge" },
+          { "component": "usp_item", "icon": "location", "title": "2 Standorte", "subtitle": "Bad Iburg & Hilter" }
+        ]
+      },
+      {
+        "component": "license_class_grid",
+        "tagline": "Klassen im Detail",
+        "headline": "Welche Klasse passt zu dir",
+        "headlineAccent": "?",
+        "description": "Die häufigsten PKW-Klassen — wenn du unsicher bist, beraten wir dich kostenlos.",
+        "classes": [
+          {
+            "component": "license_class_item",
+            "className": "Klasse B",
+            "shortDescription": "Der klassische PKW-Führerschein",
+            "ageBadge": "ab 17 (BF17)",
+            "highlightBadge": "Beliebteste",
+            "highlighted": true,
+            "whatYouCanDrive": "PKW bis 3,5 t zulässige Gesamtmasse, mit bis zu 8 Sitzplätzen plus Anhänger bis 750 kg.",
+            "prerequisite": "17 Jahre (BF17) bzw. 18 Jahre",
+            "typicalDuration": "ca. 3–4 Monate",
+            "approxCost": "ab 2.450 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse BE",
+            "shortDescription": "PKW mit großem Anhänger",
+            "ageBadge": "ab 18",
+            "whatYouCanDrive": "PKW (Klasse B) plus Anhänger bis 3,5 t. Pflicht für schwere Pferde- oder Wohnanhänger.",
+            "prerequisite": "Klasse B vorhanden",
+            "typicalDuration": "ca. 2–4 Wochen",
+            "approxCost": "ab 1.150 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse B96",
+            "shortDescription": "Erweiterung für mittlere Anhänger",
+            "ageBadge": "ab 18",
+            "whatYouCanDrive": "PKW + Anhänger bis 4,25 t Gesamtmasse. Schulung statt Prüfung — schnell und günstig.",
+            "prerequisite": "Klasse B vorhanden",
+            "typicalDuration": "1 Wochenende",
+            "approxCost": "ab 480 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse B197",
+            "shortDescription": "Automatik + Schalter in einem",
+            "ageBadge": "ab 17",
+            "whatYouCanDrive": "Du machst die Praxis auf Automatik und darfst trotzdem Schalter fahren — wenn du 10 Schalt-Stunden absolviert hast.",
+            "prerequisite": "Wie Klasse B",
+            "typicalDuration": "wie Klasse B",
+            "approxCost": "wie Klasse B + ca. 350 €"
+          }
+        ]
+      },
+      {
+        "component": "comparison_table",
+        "tagline": "Direkter Vergleich",
+        "headline": "Klassen im Überblick",
+        "description": "Alle PKW-Klassen nebeneinander — so siehst du auf einen Blick, was sich unterscheidet.",
+        "featureColumnLabel": "Eigenschaft",
+        "classes": [
+          { "component": "comparison_class", "className": "B", "shortDescription": "PKW bis 3,5 t", "highlighted": true },
+          { "component": "comparison_class", "className": "BE", "shortDescription": "PKW + Anhänger" },
+          { "component": "comparison_class", "className": "B96", "shortDescription": "PKW + 4,25 t Gespann" },
+          { "component": "comparison_class", "className": "B197", "shortDescription": "Automatik + Schalter" }
+        ],
+        "rows": [
+          { "component": "comparison_row", "feature": "Mindestalter", "values": "17 (BF17), 18, 18, 17" },
+          { "component": "comparison_row", "feature": "Voraussetzung", "values": "—, Klasse B, Klasse B, —" },
+          { "component": "comparison_row", "feature": "Theorie", "values": "12 Doppelstd., entfällt, entfällt, 12 Doppelstd." },
+          { "component": "comparison_row", "feature": "Praxisprüfung", "values": "Ja, Ja, Nein (nur Schulung), Ja (Automatik)" },
+          { "component": "comparison_row", "feature": "Anhänger erlaubt", "values": "bis 750 kg, bis 3,5 t, bis 4,25 t Gespann, bis 750 kg" },
+          { "component": "comparison_row", "feature": "Dauer", "values": "3–4 Monate, 2–4 Wochen, 1 Wochenende, 3–4 Monate" },
+          { "component": "comparison_row", "feature": "Richtkosten", "values": "ab 2.450 €, ab 1.150 €, ab 480 €, ab 2.800 €", "highlighted": true }
+        ],
+        "footnote": "Richtkosten sind Erfahrungswerte. Endpreis hängt von Anzahl der Fahrstunden und individuellem Lerntempo ab."
+      },
+      {
+        "component": "process_steps",
+        "tagline": "So läuft's ab",
+        "headline": "Vom Papierkram zur Prüfung",
+        "headlineAccent": "5 Schritte",
+        "variant": "light",
+        "steps": [
+          { "component": "process_step", "title": "Anmeldung", "description": "Online-Anmeldung in 5 Minuten oder vor Ort. Wir geben dir die Liste mit dem benötigten Papierkram.", "duration": "Tag 1" },
+          { "component": "process_step", "title": "Theorie", "description": "12 Doppelstunden Grundstoff plus Klassen-Zusatzstoff. Digital oder vor Ort, dein Zeitplan zählt.", "duration": "ca. 6 Wochen" },
+          { "component": "process_step", "title": "Theorieprüfung", "description": "Wir melden dich zur TÜV-Prüfung an, du bereitest dich mit unserem Prüfungssimulator vor.", "duration": "1 Tag" },
+          { "component": "process_step", "title": "Praxis", "description": "Übungsstunden plus 12 Sonderfahrten (Überland, Autobahn, Nacht). Auf modernen Fahrzeugen.", "duration": "ca. 6–10 Wochen" },
+          { "component": "process_step", "title": "Praxisprüfung", "description": "Mit deinem vertrauten Fahrlehrer ans Steuer. Bestanden — Lappen in der Hand.", "duration": "1 Tag", "highlighted": true }
+        ]
+      },
+      {
+        "component": "pricing_table",
+        "tagline": "Preise & Pakete",
+        "headline": "Transparent kalkuliert",
+        "description": "Alle Beträge inkl. MwSt. und ohne Gebühren der Behörde / des TÜV. Endpreis hängt vom individuellen Lerntempo ab.",
+        "columnLabels": "Klasse,Grundbetrag,Theorie-Material,Sonderfahrten,Richtwert gesamt",
+        "rows": [
+          { "component": "price_row", "licenseClass": "Klasse B", "basicFee": "390 €", "theoryFee": "75 €", "practiceFee": "ab 720 €", "totalFee": "ab 2.450 €", "highlighted": true },
+          { "component": "price_row", "licenseClass": "Klasse BE", "basicFee": "290 €", "theoryFee": "—", "practiceFee": "ab 480 €", "totalFee": "ab 1.150 €" },
+          { "component": "price_row", "licenseClass": "Klasse B96", "basicFee": "—", "theoryFee": "—", "practiceFee": "—", "totalFee": "ab 480 €" },
+          { "component": "price_row", "licenseClass": "Klasse B197 (Aufschlag)", "basicFee": "—", "theoryFee": "—", "practiceFee": "10 Schaltstunden", "totalFee": "+ ca. 350 €" }
+        ],
+        "footnote": "Hinzu kommen TÜV-Gebühren (ca. 23 € Theorie, 117 € Praxis) und Gebühren der Führerscheinstelle.",
+        "promoBox": [
+          {
+            "component": "promo_box",
+            "title": "BF17-Bonus",
+            "description": "Wer mit 16,5 Jahren startet, ist im April fertig und mit 17 schon mobil.",
+            "ctaLabel": "Beratung anfragen",
+            "ctaLink": { "linktype": "url", "url": "tel:+491743838353" }
+          }
+        ]
+      },
+      {
+        "component": "download_section",
+        "tagline": "Zum Mitnehmen",
+        "headline": "Downloads & Formulare",
+        "description": "Alles, was du für die Anmeldung brauchst — als PDF zum Ausfüllen.",
+        "items": [
+          {
+            "component": "download_item",
+            "title": "Anmeldeformular Klasse B",
+            "description": "Ausgefüllt mitbringen oder per E-Mail an uns zurücksenden.",
+            "fileType": "PDF",
+            "fileSize": "240 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Infoblatt Sehtest & Erste Hilfe",
+            "description": "Welche Tests du brauchst und wo du sie in Bad Iburg / Hilter machst.",
+            "fileType": "PDF",
+            "fileSize": "180 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Checkliste Führerscheinantrag",
+            "description": "Schritt-für-Schritt-Anleitung für die Beantragung beim Landkreis Osnabrück.",
+            "fileType": "PDF",
+            "fileSize": "120 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Preisübersicht 2026",
+            "description": "Alle Preise und Pakete als PDF zum Vergleichen.",
+            "fileType": "PDF",
+            "fileSize": "95 KB"
+          }
+        ]
+      },
+      {
+        "component": "faq_accordion",
+        "tagline": "Häufige Fragen",
+        "headline": "PKW-Führerschein — was du wissen willst",
+        "items": [
+          {
+            "component": "faq_item",
+            "question": "Wie alt muss ich für Klasse B sein?",
+            "answer": "Mit 17 darfst du im Rahmen des Begleiteten Fahrens (BF17) bereits den Führerschein machen — die Ausbildung kannst du sogar 6 Monate früher beginnen, also ab 16,5 Jahren. Ab 18 fährst du dann eigenständig."
+          },
+          {
+            "component": "faq_item",
+            "question": "Was kostet der Führerschein bei euch?",
+            "answer": "Der Richtwert liegt bei ca. 2.450 € für Klasse B inkl. Grundbetrag, Theorie-Material und Sonderfahrten. Hinzu kommen TÜV- und Behördengebühren. Der genaue Endpreis hängt von der Anzahl deiner Übungsstunden ab."
+          },
+          {
+            "component": "faq_item",
+            "question": "Wie lange dauert die Ausbildung?",
+            "answer": "Im Schnitt 3–4 Monate, je nachdem wie schnell du die Theorie schaffst und wie viele Praxisstunden du pro Woche fahren kannst. Im Sommer kann es etwas länger dauern, weil viele gleichzeitig anmelden."
+          },
+          {
+            "component": "faq_item",
+            "question": "Was unterscheidet Klasse B197 von Klasse B?",
+            "answer": "Bei B197 lernst du auf Automatik, darfst aber nach 10 Schalt-Übungsstunden auch Schaltwagen fahren — der Eintrag im Schein ist identisch zur Klasse B. Du sparst dir die nervige Schalterei in den ersten Stunden."
+          },
+          {
+            "component": "faq_item",
+            "question": "Bekomme ich Hilfe beim Behördengang?",
+            "answer": "Ja. Wir geben dir eine vollständige Checkliste, kümmern uns um die TÜV-Anmeldungen und sind bei Rückfragen zum Antrag jederzeit erreichbar."
+          }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "tagline": "Kontakt",
+        "headline": "Frag uns alles",
+        "headlineAccent": "wir antworten zügig",
+        "description": "Du bist unsicher, welche Klasse passt? Brauchst einen Beratungstermin? Schreib uns — wir melden uns innerhalb eines Werktags.",
+        "topicLabel": "Worum geht's?",
+        "submitLabel": "Anfrage absenden",
+        "helperText": "Antwort meist innerhalb von 24 Stunden. Bei Eilfragen: 0174 3838353.",
+        "topics": [
+          { "component": "topic_option", "label": "PKW-Führerschein Klasse B" },
+          { "component": "topic_option", "label": "Anhänger BE / B96" },
+          { "component": "topic_option", "label": "Automatik B197" },
+          { "component": "topic_option", "label": "Beratungstermin" },
+          { "component": "topic_option", "label": "Sonstiges" }
+        ],
+        "successHeadline": "Danke — wir melden uns!",
+        "successText": "Deine Anfrage ist bei uns. Wir antworten meist noch am selben Werktag.",
+        "consentLabel": "Ich willige ein, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. Mehr in der {{link}}.",
+        "privacyUrl": "/datenschutz"
+      },
+      {
+        "component": "cta_section",
+        "headline": "Bereit, anzumelden?",
+        "description": "Online in 5 Minuten oder ein kurzer Anruf — wir helfen dir beim Rest.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Online anmelden",
+            "link": { "linktype": "url", "url": "https://fs0943.fso360-svc.de" },
+            "variant": "ink",
+            "icon": "arrow"
+          },
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "white",
+            "icon": "phone"
+          },
+          {
+            "component": "cta_button",
+            "label": "WhatsApp",
+            "link": { "linktype": "url", "url": "https://wa.me/491743838353" },
+            "variant": "outline",
+            "icon": "whatsapp"
+          }
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "PKW-Führerschein in Bad Iburg & Hilter | Yakups Fahrschule",
+        "description": "Klasse B, BE, B96 und B197 — moderne Ausbildung, BF17 ab 16,5 Jahren, transparente Preise. Jetzt anmelden bei Yakups Fahrschule im Landkreis Osnabrück."
+      }
+    ]
+  }
+}

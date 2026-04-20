@@ -1,0 +1,228 @@
+{
+  "_comment": "Standort-Landing-Page Hilter a.T.W. Root-Level slug 'hilter' — wird über app/[...slug]/page.tsx gerendert.",
+  "name": "Standort Hilter",
+  "slug": "hilter",
+  "content": {
+    "component": "page",
+    "title": "Standort Hilter",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "Neuer Standort · seit März 2026",
+        "headline": "Fahrschule in",
+        "headlineAccent": "Hilter a.T.W.",
+        "description": "Münsterstraße 34 — direkt im Ortskern von Hilter. Kurze Wege für alle aus Hilter, Borgloh und den umliegenden Ortschaften. Theorie und Anmeldung vor Ort, Praxis wahlweise hier oder in Bad Iburg.",
+        "primaryCtaLabel": "0174 3838353",
+        "primaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "secondaryCtaLabel": "Team kennenlernen",
+        "secondaryCtaLink": { "linktype": "story", "cached_url": "team" },
+        "imageBadge": "Neu · März 2026",
+        "stats": [
+          { "component": "hero_stat", "value": "2", "accent": "×", "label": "Theorie-Abende pro Woche" },
+          { "component": "hero_stat", "value": "0", "accent": " km", "label": "Anfahrt für Hilter" },
+          { "component": "hero_stat", "value": "100", "accent": "%", "label": "Gleiche Preise wie Bad Iburg" }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Kontakt & Öffnungszeiten",
+        "headline": "So erreichst du",
+        "headlineAccent": "uns in Hilter",
+        "description": "Der Hilter-Standort ist auf Theorie und Anmeldung ausgelegt. Für Fragen kommst du entweder an einem Theorieabend vorbei oder vereinbarst einen festen Termin.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Adresse",
+            "description": "Münsterstraße 34\n49176 Hilter a.T.W.\n\nParkplätze entlang der Straße, Bushaltestelle 'Hilter Kirche' 3 Minuten fußläufig.",
+            "badge": "Neuer Standort"
+          },
+          {
+            "component": "value_card",
+            "icon": "card",
+            "title": "Öffnungszeiten",
+            "description": "Theorie: Di + Do, 17:00 – 19:00 Uhr\n\nAnmeldung & Beratung: nach Termin\n(telefonisch oder per WhatsApp vereinbaren)\n\nFür feste Sprechzeiten nutze bitte Bad Iburg.",
+            "badge": "Theorieabende"
+          },
+          {
+            "component": "value_card",
+            "icon": "shield",
+            "title": "Telefon & WhatsApp",
+            "description": "0174 3838353\n(Anruf oder WhatsApp)\n\nE-Mail: info@yakups-fahrschule.de\n\nAlle Anfragen laufen über unsere zentrale Nummer — das Team ist dasselbe.",
+            "badge": "Mo – Fr"
+          }
+        ]
+      },
+      {
+        "component": "locations_map",
+        "tagline": "Anfahrt",
+        "headline": "Hier findest du",
+        "headlineAccent": "uns in Hilter",
+        "locations": [
+          {
+            "component": "location_item",
+            "name": "Hilter a.T.W.",
+            "address": "Münsterstraße 34, 49176 Hilter a.T.W.",
+            "phone": "0174 3838353",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Münsterstraße+34+Hilter"
+            },
+            "badge": "Neu seit 2026"
+          }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Was es hier gibt",
+        "headline": "Kleiner Standort,",
+        "headlineAccent": "volle Ausstattung",
+        "description": "Wir haben den Hilter-Standort ganz bewusst schlank gehalten: Genug Platz für Theoriekurse und Beratung, aber ohne unnötigen Overhead — das hält auch die Preise gleich.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "building",
+            "title": "Theorieraum (bis 18 Pers.)",
+            "description": "Aktuelle Medientechnik — Beamer, großes Display, Prüfungssimulator. Gleicher Standard wie Bad Iburg, nur eine Stufe intimer."
+          },
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Beratungs-Ecke",
+            "description": "Kleiner Bereich zum Unterschreiben, Anmelden, Fragen klären. Kein richtiges Büro — aber dafür unkompliziert. Kaffee steht bereit."
+          },
+          {
+            "component": "value_card",
+            "icon": "card",
+            "title": "Kein Verkauf, kein Empfangstresen",
+            "description": "Wir sind nicht täglich besetzt, weil wir keine Call-Center-Bude sind. Termine kommen zuverlässig zustande, aber immer über die Zentrale."
+          }
+        ]
+      },
+      {
+        "component": "license_class_grid",
+        "tagline": "Ausbildung in Hilter",
+        "headline": "Diese Klassen starten",
+        "headlineAccent": "hier in Hilter",
+        "description": "Für Klasse B und BE-Aufbau kannst du komplett in Hilter bleiben. Für Motorrad und LKW findet die Theorie hier statt, bei der Praxis pendelst du nach Bad Iburg.",
+        "classes": [
+          {
+            "component": "license_class_item",
+            "className": "Klasse B",
+            "shortDescription": "PKW — komplett in Hilter möglich.",
+            "ageBadge": "ab 17 (BF17)",
+            "whatYouCanDrive": "PKW bis 3,5 t, Anhänger bis 750 kg.",
+            "typicalDuration": "3 – 5 Monate",
+            "approxCost": "ab 2.100 €",
+            "highlighted": true
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse BE / B96",
+            "shortDescription": "Aufbau mit Anhänger.",
+            "ageBadge": "ab 18",
+            "whatYouCanDrive": "B + Anhänger über 750 kg.",
+            "typicalDuration": "2 – 4 Wochen",
+            "approxCost": "ab 650 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse A / A1 / A2",
+            "shortDescription": "Theorie Hilter, Praxis Bad Iburg.",
+            "ageBadge": "ab 16 / 18 / 24",
+            "whatYouCanDrive": "Motorrad je nach Klasse.",
+            "typicalDuration": "3 – 4 Monate",
+            "approxCost": "ab 1.900 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse C / CE",
+            "shortDescription": "LKW-Theorie nur Bad Iburg.",
+            "ageBadge": "ab 21",
+            "whatYouCanDrive": "LKW / Sattelzug.",
+            "typicalDuration": "3 – 6 Monate",
+            "approxCost": "ab 3.500 €"
+          }
+        ]
+      },
+      {
+        "component": "reviews_section",
+        "tagline": "Bewertungen · Hilter",
+        "averageRating": "4,9",
+        "totalCount": "Aus 87 verifizierten Google-Bewertungen",
+        "items": [
+          {
+            "component": "review_item",
+            "text": "Endlich muss ich für die Theorie nicht mehr nach Bad Iburg fahren. Neuer Raum in Hilter ist klein, aber genau richtig — und das Team ist dasselbe wie am Hauptstandort.",
+            "author": "Tim R.",
+            "initials": "TR",
+            "context": "Klasse B · April 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Habe mitten im Kurs von Bad Iburg nach Hilter gewechselt — ohne Aufpreis, ohne Papierkram. Genau so stell ich mir das vor.",
+            "author": "Laura S.",
+            "initials": "LS",
+            "context": "Klasse B · April 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Kurze Wege von Borgloh aus, entspannter Unterricht. Die Öffnungszeiten sind zwar begrenzt, aber telefonisch ist immer jemand erreichbar.",
+            "author": "Mehmet A.",
+            "initials": "MA",
+            "context": "Klasse B · März 2026",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Das Team ist überall dasselbe.",
+        "description": "Wir rotieren bewusst zwischen beiden Standorten, damit du nicht von der Lehrer-Lotterie abhängig bist. Lerne unser komplettes Team auf einer Seite kennen.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Team ansehen",
+            "link": { "linktype": "story", "cached_url": "team" },
+            "variant": "ink",
+            "icon": "arrow"
+          },
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "outline",
+            "icon": "phone"
+          }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "tagline": "Kontakt",
+        "headline": "Frag uns einfach",
+        "headlineAccent": "direkt",
+        "description": "Schreib uns kurz, was du vorhast — wir melden uns innerhalb von 24 Stunden zurück. Kein Verkaufsdruck, kein Newsletter, nur eine ehrliche Antwort.",
+        "anchorId": "kontakt",
+        "topics": [
+          { "component": "topic_option", "label": "Infos zum PKW-Führerschein (B / BE)" },
+          { "component": "topic_option", "label": "Theoriekurs in Hilter" },
+          { "component": "topic_option", "label": "Motorrad / LKW (Theorie hier, Praxis Bad Iburg)" },
+          { "component": "topic_option", "label": "Termin für Beratung vor Ort" },
+          { "component": "topic_option", "label": "Sonstiges" }
+        ],
+        "helperText": "Wir antworten werktags innerhalb von 24 Stunden. Vertraulich — deine Anfrage landet nicht in einem CRM und wird nicht weitergegeben."
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Fahrschule Hilter a.T.W. · Münsterstraße 34 | Yakups Fahrschule",
+        "description": "Fahrschule in Hilter a.T.W. seit März 2026. Theorie, Anmeldung und PKW-Praxis vor Ort in der Münsterstraße 34 — gleiche Preise und gleiches Team wie am Hauptstandort."
+      }
+    ]
+  }
+}

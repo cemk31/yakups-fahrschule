@@ -1,0 +1,53 @@
+{
+  "class_grid": {
+    "name": "class_grid",
+    "display_name": "Class Grid",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": { "type": "text", "display_name": "Headline", "required": true },
+      "sideLinkLabel": { "type": "text", "display_name": "Seitenlink-Text" },
+      "sideLink": { "type": "multilink", "display_name": "Seitenlink" },
+      "cards": {
+        "type": "bloks",
+        "display_name": "Karten",
+        "maximum": 2,
+        "restrict_components": true,
+        "component_whitelist": ["class_card"]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "class_card": {
+    "name": "class_card",
+    "display_name": "Class Card",
+    "schema": {
+      "title": { "type": "text", "display_name": "Titel", "required": true },
+      "description": { "type": "textarea", "display_name": "Beschreibung" },
+      "tags": {
+        "type": "text",
+        "display_name": "Tags (komma-getrennt)",
+        "description": "z.B. 'Klasse B, BE, B96, A'"
+      },
+      "icon": {
+        "type": "option",
+        "display_name": "Icon",
+        "required": true,
+        "options": [
+          { "name": "Auto", "value": "car" },
+          { "name": "LKW", "value": "truck" }
+        ]
+      },
+      "ctaLabel": { "type": "text", "display_name": "CTA-Text" },
+      "ctaLink": { "type": "multilink", "display_name": "CTA-Link" },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben (schwarz)",
+        "description": "Dunkler Hintergrund statt weiß - für die LKW-Karte"
+      },
+      "numberLabel": { "type": "text", "display_name": "Nummer (z.B. '01')" }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

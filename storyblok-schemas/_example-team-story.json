@@ -1,0 +1,269 @@
+{
+  "_comment": "Beispielstory für /team - Über-uns-Seite mit ausführlichem Team-Grid.",
+  "name": "Team",
+  "slug": "team",
+  "content": {
+    "component": "page",
+    "title": "Team",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "Unser Team",
+        "headline": "Menschen, die dich",
+        "headlineAccent": "sicher ans Ziel bringen",
+        "description": "Seit über 20 Jahren bilden wir bei Yakups Fahrschule in Bad Iburg und Hilter aus. Vom PKW bis zum LKW, vom ersten Fahrstunde-Nervositäts-Gefühl bis zur bestandenen Prüfung — du bekommst bei uns persönliche Betreuung auf Augenhöhe.",
+        "primaryCtaLabel": "Probestunde buchen",
+        "primaryCtaLink": {
+          "linktype": "url",
+          "url": "#kontakt"
+        },
+        "secondaryCtaLabel": "Jetzt anrufen",
+        "secondaryCtaLink": {
+          "linktype": "url",
+          "url": "tel:+491743838353"
+        },
+        "imageBadge": "20+ Jahre Erfahrung",
+        "stats": [
+          {
+            "component": "hero_stat",
+            "value": "20",
+            "accent": "+",
+            "label": "Jahre Erfahrung"
+          },
+          {
+            "component": "hero_stat",
+            "value": "5",
+            "label": "Fahrlehrer:innen"
+          },
+          {
+            "component": "hero_stat",
+            "value": "3",
+            "label": "Sprachen im Unterricht"
+          }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Unser Anspruch",
+        "headline": "Was uns",
+        "headlineAccent": "ausmacht",
+        "description": "Fahrschule ist für uns mehr als Fahrstunden abhaken. Wir wollen, dass du nach dem Schein wirklich sicher unterwegs bist.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "shield",
+            "title": "Geduldig & ehrlich",
+            "description": "Wir sagen dir, wenn etwas sitzt — und wenn nicht. Ohne Druck, aber mit klarem Plan bis zur Prüfung.",
+            "badge": "Persönlich"
+          },
+          {
+            "component": "value_card",
+            "icon": "truck",
+            "title": "Alle Klassen aus einer Hand",
+            "description": "Vom Roller bis zum Sattelzug. Du wechselst nicht die Fahrschule, wenn du später aufsatteln willst.",
+            "badge": "B · BE · C · CE · BKF"
+          },
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Zwei Standorte, ein Team",
+            "description": "Theorie und Praxis in Bad Iburg oder Hilter. Gleiche Ausbilder, gleiche Qualität — du wählst, was besser passt.",
+            "badge": "Bad Iburg · Hilter"
+          }
+        ]
+      },
+      {
+        "component": "team_grid",
+        "tagline": "Wer dich begleitet",
+        "headline": "Unsere Fahrlehrer:innen",
+        "headlineAccent": "& das Büro",
+        "description": "Die Fotos und Texte trägst du nach dem ersten Shooting im Storyblok-Editor ein — alle Platzhalter unten sind Beispiele mit typischen Rollen.",
+        "compact": false,
+        "members": [
+          {
+            "component": "team_member",
+            "name": "Yakup Yılmaz",
+            "role": "Inhaber & Fahrlehrer",
+            "classes": "B, BE, C, CE, BKF",
+            "bio": "Gründer der Fahrschule und seit 2003 als Fahrlehrer aktiv. Schwerpunkt LKW-Ausbildung und BKF — ruhig im Fahrzeug, direkt in der Ansage.",
+            "languages": "Deutsch, Türkisch, Englisch"
+          },
+          {
+            "component": "team_member",
+            "name": "Max Mustermann",
+            "role": "Fahrlehrer Klasse B, BE",
+            "classes": "B, BE, B96, B197",
+            "bio": "Spezialist für Anfänger:innen und Automatik-Ausbildung (B197). Wer das erste Mal am Steuer nervös ist, ist bei Max richtig.",
+            "languages": "Deutsch, Englisch"
+          },
+          {
+            "component": "team_member",
+            "name": "Elif Demir",
+            "role": "Fahrlehrerin Klasse B, A",
+            "classes": "B, A, A1, A2, AM",
+            "bio": "Zweirad-Expertin und Fahrlehrerin für Klasse B. Besonders gefragt bei Sicherheitstrainings für junge Fahrer:innen.",
+            "languages": "Deutsch, Türkisch"
+          },
+          {
+            "component": "team_member",
+            "name": "Lisa Schmidt",
+            "role": "Fahrlehrerin Klasse C, CE",
+            "classes": "C, CE, C1, C1E",
+            "bio": "LKW-Ausbilderin mit mehreren Jahren Spedition-Erfahrung. Begleitet dich auch durch die BKF-Module und Praxisprüfung.",
+            "languages": "Deutsch, Englisch"
+          },
+          {
+            "component": "team_member",
+            "name": "Tom Becker",
+            "role": "Fahrlehrer Klasse B, A",
+            "classes": "B, BE, A, A2",
+            "bio": "Ruhiger Typ, lange Erfahrung mit Auffrischungs- und Angstabbau-Fahrten. Viele unserer Ü40-Wiedereinsteiger:innen kennen Tom.",
+            "languages": "Deutsch"
+          },
+          {
+            "component": "team_member",
+            "name": "Ayşe Kara",
+            "role": "Büro & Kurskoordination",
+            "classes": "",
+            "bio": "Erste Ansprechpartnerin am Telefon und in der Anmeldung. Kümmert sich um Termine, Förderanträge und BKF-Bescheinigungen.",
+            "languages": "Deutsch, Türkisch"
+          }
+        ]
+      },
+      {
+        "component": "locations_map",
+        "tagline": "So findest du uns",
+        "headline": "Zwei Standorte im",
+        "headlineAccent": "Osnabrücker Land",
+        "locations": [
+          {
+            "component": "location_item",
+            "name": "Bad Iburg",
+            "address": "Münsterstraße 12, 49186 Bad Iburg · Mo-Fr 16:00-19:00 Uhr",
+            "phone": "+49 174 3838353",
+            "badge": "Hauptstandort",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Fahrschule+Yakup+Bad+Iburg"
+            }
+          },
+          {
+            "component": "location_item",
+            "name": "Hilter a.T.W.",
+            "address": "Münsterstraße 34, 49176 Hilter a.T.W. · Di & Do 17:00-19:00 Uhr",
+            "phone": "+49 174 3838353",
+            "badge": "Seit 2026",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Fahrschule+Yakup+Hilter"
+            }
+          }
+        ]
+      },
+      {
+        "component": "faq_accordion",
+        "tagline": "Häufige Fragen",
+        "headline": "Kurz erklärt —",
+        "headlineAccent": "wer wir sind",
+        "items": [
+          {
+            "component": "faq_item",
+            "question": "Kann ich mir einen Fahrlehrer aussuchen?",
+            "answer": "Ja. Wenn du nach den ersten Stunden merkst, dass es mit einer anderen Person besser passt, sagst du einfach Bescheid — das ist bei uns völlig okay. Wichtiger als jedes Schema ist, dass du dich im Auto wohlfühlst."
+          },
+          {
+            "component": "faq_item",
+            "question": "In welchen Sprachen unterrichtet ihr?",
+            "answer": "Hauptsprache ist Deutsch. Fahrstunden und Beratung sind zusätzlich auf Türkisch und Englisch möglich. Sag uns einfach bei der Anmeldung, was dir angenehm ist."
+          },
+          {
+            "component": "faq_item",
+            "question": "Bildet ihr wirklich alle Klassen selbst aus?",
+            "answer": "Ja — von Mofa/AM über A-Klassen und PKW bis LKW (C/CE) und BKF-Grundqualifikation. Für den LKW-Teil haben wir eigene Fahrzeuge und Ausbilder:innen mit Spedition-Hintergrund."
+          },
+          {
+            "component": "faq_item",
+            "question": "Wie läuft die erste Kontaktaufnahme?",
+            "answer": "Am einfachsten per Anruf oder über das Formular unten. Wir melden uns innerhalb von 24 Stunden zurück, klären deinen Ausgangspunkt (Ersterwerb, Erweiterung, Wiedererteilung) und buchen dich in den nächsten Theoriekurs ein."
+          }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "anchorId": "kontakt",
+        "tagline": "Sag Hallo",
+        "headline": "Lust auf ein persönliches",
+        "headlineAccent": "Kennenlernen?",
+        "description": "Schreib uns kurz, worum es geht — ob Erststunde, Klassenerweiterung oder LKW-Förderung. Wir melden uns innerhalb von 24 Stunden bei dir.",
+        "nameLabel": "Name",
+        "emailLabel": "E-Mail",
+        "phoneLabel": "Telefon (optional)",
+        "topicLabel": "Worum geht's?",
+        "messageLabel": "Deine Nachricht",
+        "submitLabel": "Nachricht senden",
+        "topics": [
+          {
+            "component": "topic_option",
+            "label": "Probestunde / Kennenlernen"
+          },
+          {
+            "component": "topic_option",
+            "label": "PKW-Führerschein (Klasse B)"
+          },
+          {
+            "component": "topic_option",
+            "label": "Zweirad (A-Klassen / AM)"
+          },
+          {
+            "component": "topic_option",
+            "label": "LKW-Führerschein / BKF"
+          },
+          {
+            "component": "topic_option",
+            "label": "Sonstiges"
+          }
+        ],
+        "helperText": "Wir antworten innerhalb von 24 Stunden.",
+        "successHeadline": "Danke für deine Nachricht!",
+        "successText": "Wir melden uns innerhalb von 24 Stunden bei dir zurück.",
+        "consentLabel": "Ich willige ein, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. Mehr in der {{link}}.",
+        "privacyUrl": "/datenschutz"
+      },
+      {
+        "component": "cta_section",
+        "headline": "Einfach mal reinschauen?",
+        "description": "Du musst nichts vorbereiten. Wir klären am Tresen, was für deinen Weg zum Führerschein nötig ist, und nehmen dich mit zur ersten Theoriestunde.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Standorte ansehen",
+            "link": {
+              "linktype": "url",
+              "url": "/standorte"
+            },
+            "variant": "ink",
+            "icon": "arrow"
+          },
+          {
+            "component": "cta_button",
+            "label": "Jetzt anrufen",
+            "link": {
+              "linktype": "url",
+              "url": "tel:+491743838353"
+            },
+            "variant": "white",
+            "icon": "phone"
+          }
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Unser Team | Yakups Fahrschule Bad Iburg & Hilter",
+        "description": "Lern das Team von Yakups Fahrschule kennen: Fahrlehrer:innen für PKW, Zweirad, LKW und BKF — seit über 20 Jahren in Bad Iburg und Hilter, mehrsprachiger Unterricht auf Deutsch, Türkisch und Englisch."
+      }
+    ]
+  }
+}

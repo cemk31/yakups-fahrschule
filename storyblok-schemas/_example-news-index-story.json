@@ -1,0 +1,27 @@
+{
+  "_comment": "Übersichtsseite /news. Läuft als Startpage des news-Ordners — full_slug ist 'news/'.",
+  "name": "News (Übersicht)",
+  "slug": "news/index",
+  "is_startpage": true,
+  "content": {
+    "component": "page",
+    "title": "News",
+    "body": [
+      {
+        "component": "blog_index",
+        "tagline": "News & Blog",
+        "headline": "Was bei uns",
+        "headlineAccent": "los ist",
+        "description": "Neue Theoriekurse, Förderthemen, Standort-Updates und ab und zu auch Geschichten aus dem Fahrschulalltag — alles, was bei Yakups Fahrschule gerade passiert.",
+        "emptyStateText": "Bald gibt's hier die ersten Beiträge."
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "News & Blog | Yakups Fahrschule Bad Iburg & Hilter",
+        "description": "Aktuelles von Yakups Fahrschule: Theoriekurse, Förderthemen rund um LKW und BKF, Standort-News aus Bad Iburg und Hilter und Tipps aus dem Fahrschulalltag."
+      }
+    ]
+  }
+}

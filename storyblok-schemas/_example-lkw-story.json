@@ -1,0 +1,349 @@
+{
+  "_comment": "Beispiel-Content für die LKW & Beruf Seite. Slug: 'lkw-fuehrerschein'. Content-Type: 'page'. Push via: node scripts/push-story.mjs _example-lkw-story.json --apply --publish",
+  "name": "LKW & Beruf",
+  "slug": "lkw-fuehrerschein",
+  "content": {
+    "component": "page",
+    "title": "LKW & Beruf",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "LKW & Berufskraftfahrer",
+        "headline": "Dein Einstieg in den",
+        "headlineAccent": "LKW-Beruf",
+        "description": "Vom C-Schein bis zur CE-Ausbildung und BKF-Qualifikation — AZAV-zertifiziert, mit Bildungsgutschein bis zu 100 % gefördert. Start jederzeit, kostenlose Beratung in Bad Iburg oder Hilter.",
+        "primaryCtaLabel": "Kostenlose Beratung",
+        "primaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "secondaryCtaLabel": "Förderung prüfen",
+        "secondaryCtaLink": { "linktype": "url", "url": "#foerderung" },
+        "imageBadge": "AZAV-zertifiziert",
+        "stats": [
+          { "component": "hero_stat", "value": "100", "accent": "%", "label": "Förderung möglich" },
+          { "component": "hero_stat", "value": "3–6", "accent": "Mon", "label": "Ausbildungsdauer" },
+          { "component": "hero_stat", "value": "21", "accent": "J", "label": "ab Mindestalter C" }
+        ]
+      },
+      {
+        "component": "usp_strip",
+        "items": [
+          { "component": "usp_item", "icon": "sparkle", "title": "AZAV-zertifiziert", "subtitle": "Bildungsgutschein einlösbar" },
+          { "component": "usp_item", "icon": "calendar", "title": "Start jederzeit", "subtitle": "Kein fester Kursbeginn" },
+          { "component": "usp_item", "icon": "screen", "title": "Moderne Flotte", "subtitle": "Aktuelle MAN, Mercedes" },
+          { "component": "usp_item", "icon": "location", "title": "2 Standorte", "subtitle": "Bad Iburg & Hilter" }
+        ]
+      },
+      {
+        "component": "license_class_grid",
+        "tagline": "Klassen & Qualifikationen",
+        "headline": "Was du bei uns machen",
+        "headlineAccent": "kannst",
+        "description": "Die drei Bausteine für den LKW-Beruf — kombinierbar, einzeln buchbar, förderfähig.",
+        "classes": [
+          {
+            "component": "license_class_item",
+            "className": "Klasse C",
+            "shortDescription": "LKW über 3,5 t Gesamtmasse",
+            "ageBadge": "ab 21 (18 mit BKF)",
+            "highlightBadge": "Einstieg",
+            "highlighted": true,
+            "whatYouCanDrive": "LKW mit einer zulässigen Gesamtmasse über 3,5 t, plus Anhänger bis 750 kg. Grundlage für alle weiteren LKW-Klassen.",
+            "prerequisite": "Klasse B vorhanden, ärztliche Untersuchung, augenärztliches Gutachten",
+            "typicalDuration": "ca. 2–3 Monate",
+            "approxCost": "ab 3.500 €"
+          },
+          {
+            "component": "license_class_item",
+            "className": "Klasse CE",
+            "shortDescription": "Sattelzug & LKW mit großem Anhänger",
+            "ageBadge": "ab 21 (18 mit BKF)",
+            "whatYouCanDrive": "LKW (Klasse C) plus Anhänger über 750 kg. Deckt Sattelzugmaschinen und klassische Fernverkehr-Kombinationen ab.",
+            "prerequisite": "Klasse C vorhanden (kann parallel gemacht werden)",
+            "typicalDuration": "ca. 4–6 Wochen zusätzlich",
+            "approxCost": "ab 2.800 € (zusätzlich)"
+          },
+          {
+            "component": "license_class_item",
+            "className": "BKF",
+            "shortDescription": "Berufskraftfahrer-Qualifikation",
+            "ageBadge": "Pflicht für gewerbliche Fahrten",
+            "whatYouCanDrive": "Grundqualifikation nach BKrFQG — Pflicht für alle, die gewerblich einen LKW fahren. Ermöglicht Einstieg in den LKW-Beruf ab 18.",
+            "prerequisite": "Keine — parallel zur C/CE-Ausbildung möglich",
+            "typicalDuration": "ca. 4 Wochen",
+            "approxCost": "ab 2.200 €"
+          }
+        ]
+      },
+      {
+        "component": "comparison_table",
+        "tagline": "Direkter Vergleich",
+        "headline": "Welcher Weg passt zu",
+        "headlineAccent": "dir",
+        "description": "Je nachdem, ob du gewerblich fahren willst oder nur privaten LKW-Bedarf hast — hier die häufigsten Kombinationen im Überblick.",
+        "featureColumnLabel": "Eigenschaft",
+        "classes": [
+          { "component": "comparison_class", "className": "C", "shortDescription": "Nur LKW privat" },
+          { "component": "comparison_class", "className": "C + BKF", "shortDescription": "LKW-Beruf Einstieg", "highlighted": true },
+          { "component": "comparison_class", "className": "C + CE + BKF", "shortDescription": "Sattelzug & Fernverkehr" }
+        ],
+        "rows": [
+          { "component": "comparison_row", "feature": "Mindestalter", "values": "21, 18, 18" },
+          { "component": "comparison_row", "feature": "Gewerblich erlaubt", "values": "Nein, Ja, Ja" },
+          { "component": "comparison_row", "feature": "Sattelzug erlaubt", "values": "Nein, Nein, Ja" },
+          { "component": "comparison_row", "feature": "Typische Dauer", "values": "2–3 Monate, 3–4 Monate, 4–6 Monate" },
+          { "component": "comparison_row", "feature": "Förderung möglich", "values": "Bedingt, Ja (100%), Ja (100%)" },
+          { "component": "comparison_row", "feature": "Richtkosten", "values": "ab 3.500 €, ab 5.700 €, ab 8.500 €", "highlighted": true }
+        ],
+        "footnote": "Förderung via Bildungsgutschein setzt Zustimmung deines Vermittlers bei der Arbeitsagentur voraus. Wir beraten dich kostenlos."
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Warum Yakups",
+        "headline": "Das bekommst du bei",
+        "headlineAccent": "uns",
+        "description": "AZAV-zertifiziert heißt: Wir erfüllen die Qualitätsstandards der Arbeitsagentur. Für dich bedeutet das konkret —",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "shield",
+            "title": "Förder-Expertise",
+            "description": "Wir klären deinen Förderanspruch vor der Anmeldung, helfen bei der Antragstellung und rechnen direkt mit der Arbeitsagentur ab.",
+            "badge": "100 % möglich"
+          },
+          {
+            "component": "value_card",
+            "icon": "truck",
+            "title": "Moderne Flotte",
+            "description": "Aktuelle MAN TGX, Mercedes Actros und Sattelzugmaschinen mit zeitgemäßer Technik — so, wie du später im Beruf fahren wirst."
+          },
+          {
+            "component": "value_card",
+            "icon": "building",
+            "title": "Arbeitgeber-Netzwerk",
+            "description": "Lokale Speditionen und Logistiker suchen laufend Fahrer. Auf Wunsch vermitteln wir direkt nach der Prüfung."
+          }
+        ]
+      },
+      {
+        "component": "process_steps",
+        "tagline": "So läuft's ab",
+        "headline": "Dein Weg zum",
+        "headlineAccent": "LKW-Schein",
+        "variant": "dark",
+        "steps": [
+          { "component": "process_step", "title": "1. Beratung & Förderprüfung", "description": "Kostenfreies Gespräch. Wir klären, welche Klasse passt und ob Arbeitsagentur oder Jobcenter fördern.", "duration": "ca. 1 Woche" },
+          { "component": "process_step", "title": "2. Ärztliche Eignung", "description": "Untersuchung beim Arzt, augenärztliches Gutachten und Reaktionstest. Wir geben dir die vollständige Liste.", "duration": "ca. 1–2 Wochen" },
+          { "component": "process_step", "title": "3. Theorie", "description": "Grundstoff plus Klassen-Zusatzstoff. Bei BKF zusätzlich die Module der Grundqualifikation. Digital & vor Ort.", "duration": "ca. 4–6 Wochen" },
+          { "component": "process_step", "title": "4. Praxis im LKW", "description": "Pflichtfahrten (Überland, Autobahn, Nacht) plus Übungsstunden. Auf moderner Flotte, vertraute Strecken.", "duration": "ca. 6–10 Wochen" },
+          { "component": "process_step", "title": "5. Prüfung & Vermittlung", "description": "TÜV-Prüfung, Vorbereitung bis zum Schluss. Auf Wunsch: Kontakt zu regionalen Arbeitgebern.", "duration": "1–2 Wochen", "highlighted": true }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "anchorId": "foerderung",
+        "tagline": "Förderung",
+        "headline": "100 % gefördert? Finden wir",
+        "headlineAccent": "gemeinsam heraus",
+        "description": "AZAV-zertifiziert heißt: Bildungsgutschein ist möglich. Schreib uns Name, Kontakt und deinen aktuellen Status (arbeitsuchend, Umschulung, über Arbeitgeber) — wir melden uns innerhalb eines Werktags mit einer konkreten Einschätzung.",
+        "topicLabel": "Dein Status",
+        "submitLabel": "Förderung prüfen lassen",
+        "helperText": "Die Prüfung ist kostenlos und unverbindlich. Deine Daten gehen nur an uns — nicht an die Arbeitsagentur.",
+        "topics": [
+          { "component": "topic_option", "label": "Arbeitsuchend (Arbeitsagentur)" },
+          { "component": "topic_option", "label": "ALG II / Bürgergeld (Jobcenter)" },
+          { "component": "topic_option", "label": "Förderung über Arbeitgeber" },
+          { "component": "topic_option", "label": "Bundeswehr-Entlassung (BFD)" },
+          { "component": "topic_option", "label": "Selbstzahler / unsicher" }
+        ],
+        "successHeadline": "Danke — wir melden uns zur Förderung",
+        "successText": "Wir prüfen deine Angaben und melden uns innerhalb eines Werktags mit einer konkreten Einschätzung.",
+        "consentLabel": "Ich willige ein, dass meine Angaben zur Förderberatung gespeichert werden. Details in der {{link}}.",
+        "privacyUrl": "/datenschutz"
+      },
+      {
+        "component": "pricing_table",
+        "tagline": "Preise & Pakete",
+        "headline": "Was kostet der LKW-Schein",
+        "description": "Alle Angaben als Richtwerte inkl. MwSt. ohne TÜV- und Behördengebühren. Mit Bildungsgutschein kann deine Eigenbeteiligung bei 0 € liegen.",
+        "columnLabels": "Paket,Grundbetrag,Theorie-Material,Sonderfahrten,Richtwert gesamt",
+        "rows": [
+          { "component": "price_row", "licenseClass": "Klasse C (nur LKW)", "basicFee": "790 €", "theoryFee": "180 €", "practiceFee": "ab 1.980 €", "totalFee": "ab 3.500 €" },
+          { "component": "price_row", "licenseClass": "Klasse C + BKF", "basicFee": "1.290 €", "theoryFee": "480 €", "practiceFee": "ab 2.480 €", "totalFee": "ab 5.700 €", "highlighted": true },
+          { "component": "price_row", "licenseClass": "Klasse CE (Aufbau auf C)", "basicFee": "490 €", "theoryFee": "—", "practiceFee": "ab 1.880 €", "totalFee": "ab 2.800 €" },
+          { "component": "price_row", "licenseClass": "C + CE + BKF", "basicFee": "1.690 €", "theoryFee": "480 €", "practiceFee": "ab 4.360 €", "totalFee": "ab 8.500 €" }
+        ],
+        "footnote": "Hinzu kommen TÜV-Gebühren (Theorie ca. 23 €, Praxis C ca. 172 €, Praxis CE ca. 188 €) und Gebühren der Führerscheinstelle. Augenärztliches Gutachten und Eignungsuntersuchung ca. 150 €.",
+        "promoBox": [
+          {
+            "component": "promo_box",
+            "title": "Bildungsgutschein einlösbar",
+            "description": "Als AZAV-zertifizierte Fahrschule rechnen wir direkt mit der Arbeitsagentur ab. Deine Eigenbeteiligung: oft 0 €.",
+            "ctaLabel": "Förderung prüfen",
+            "ctaLink": { "linktype": "url", "url": "#foerderung" }
+          }
+        ]
+      },
+      {
+        "component": "download_section",
+        "tagline": "Zum Mitnehmen",
+        "headline": "Downloads & Formulare",
+        "description": "Alles, was du für die Anmeldung und den Förderantrag brauchst.",
+        "items": [
+          {
+            "component": "download_item",
+            "title": "Anmeldeformular LKW-Ausbildung",
+            "description": "Für Klassen C, CE und BKF. Ausgefüllt mitbringen oder per E-Mail zurücksenden.",
+            "fileType": "PDF",
+            "fileSize": "280 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Checkliste Bildungsgutschein",
+            "description": "Welche Unterlagen du für den Antrag bei der Arbeitsagentur brauchst.",
+            "fileType": "PDF",
+            "fileSize": "210 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Infoblatt BKF-Grundqualifikation",
+            "description": "Module, Dauer, Prüfung — alles Wichtige zur BKF nach BKrFQG.",
+            "fileType": "PDF",
+            "fileSize": "340 KB"
+          },
+          {
+            "component": "download_item",
+            "title": "Ärztliche Untersuchung & Sehtest",
+            "description": "Welche Ärzte in Bad Iburg / Hilter die nötigen Gutachten ausstellen.",
+            "fileType": "PDF",
+            "fileSize": "150 KB"
+          }
+        ]
+      },
+      {
+        "component": "faq_accordion",
+        "tagline": "Häufige Fragen",
+        "headline": "LKW-Schein & Förderung",
+        "items": [
+          {
+            "component": "faq_item",
+            "question": "Zahlt die Arbeitsagentur wirklich den ganzen LKW-Schein?",
+            "answer": "Ja, bei uns als AZAV-zertifizierte Fahrschule kann der LKW-Führerschein per Bildungsgutschein zu 100 % finanziert werden. Voraussetzung ist die Zustimmung deines Vermittlers bei der Arbeitsagentur oder dem Jobcenter. Wir prüfen die Förderung kostenlos und helfen bei der Antragstellung."
+          },
+          {
+            "component": "faq_item",
+            "question": "Wie alt muss ich für Klasse C sein?",
+            "answer": "Regulär 21 Jahre. Wenn du die BKF-Grundqualifikation gleich mitmachst, kannst du bereits mit 18 Jahren starten — so laufen die meisten unserer LKW-Einsteiger. Mit 18 darfst du dann zunächst nur LKW bis 7,5 t fahren, mit 21 dann alle."
+          },
+          {
+            "component": "faq_item",
+            "question": "Was unterscheidet C, CE und BKF?",
+            "answer": "Klasse C ist der LKW-Führerschein über 3,5 t. CE kommt oben drauf und erlaubt Sattelzüge und große Anhänger. BKF ist keine Führerscheinklasse, sondern eine gesetzlich vorgeschriebene Grundqualifikation für alle, die gewerblich einen LKW fahren wollen. Wer beruflich fährt, braucht praktisch immer C + BKF."
+          },
+          {
+            "component": "faq_item",
+            "question": "Wie lange dauert die Ausbildung?",
+            "answer": "Klasse C allein: 2–3 Monate. Klasse C + BKF: 3–4 Monate. Komplett-Paket C + CE + BKF: 4–6 Monate. Hängt stark davon ab, wie viel Zeit du investieren kannst — Intensivkurse sind möglich."
+          },
+          {
+            "component": "faq_item",
+            "question": "Welche ärztlichen Untersuchungen brauche ich?",
+            "answer": "Für LKW-Klassen musst du eine Eignungsuntersuchung und ein augenärztliches Gutachten vorlegen. Zusätzlich einen Reaktionstest. Wir geben dir die komplette Liste und nennen dir Ärzte in Bad Iburg und Hilter, bei denen du direkt einen Termin bekommst."
+          },
+          {
+            "component": "faq_item",
+            "question": "Finde ich hinterher einen Job?",
+            "answer": "Der Fachkräftemangel im Logistik-Sektor ist real — lokale Speditionen und Handwerksbetriebe suchen laufend Fahrer. Auf Wunsch vermitteln wir dich direkt an Arbeitgeber aus unserem Netzwerk."
+          }
+        ]
+      },
+      {
+        "component": "reviews_section",
+        "tagline": "Erfahrungen",
+        "averageRating": "4,9",
+        "totalCount": "Aus über 80 Google-Bewertungen — Auswahl LKW-Kunden",
+        "items": [
+          {
+            "component": "review_item",
+            "text": "Komplett über die Arbeitsagentur gefördert, in drei Monaten Klasse CE in der Tasche. Yakup hat sich um den kompletten Antrag gekümmert — super Team.",
+            "author": "Marco K.",
+            "initials": "MK",
+            "context": "Klasse CE + BKF · März 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Nach der Bundeswehr-Zeit wollte ich in die Logistik. Yakups haben mich komplett begleitet, auch bei der Jobsuche. Heute fahre ich Sattelzug im Fernverkehr.",
+            "author": "Julian B.",
+            "initials": "JB",
+            "context": "Klasse CE + BKF · Januar 2026",
+            "rating": 5
+          },
+          {
+            "component": "review_item",
+            "text": "Ich war skeptisch wegen meinem Alter (46), aber es hat alles entspannt geklappt. Praxisausbildung auf modernem MAN, Theorie top vorbereitet.",
+            "author": "Thomas R.",
+            "initials": "TR",
+            "context": "Klasse C · Februar 2026",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "component": "contact_form",
+        "tagline": "Kontakt",
+        "headline": "Noch Fragen? Schreib uns",
+        "description": "Egal ob zur Ausbildung, zur Förderung oder zur Prüfung — wir antworten zügig, meistens noch am selben Werktag.",
+        "topicLabel": "Worum geht's?",
+        "submitLabel": "Anfrage absenden",
+        "helperText": "Alternativ: 0174 3838353 oder WhatsApp.",
+        "topics": [
+          { "component": "topic_option", "label": "Klasse C" },
+          { "component": "topic_option", "label": "Klasse CE" },
+          { "component": "topic_option", "label": "BKF / Grundqualifikation" },
+          { "component": "topic_option", "label": "BKF-Weiterbildung (35 Std)" },
+          { "component": "topic_option", "label": "Beratungstermin" },
+          { "component": "topic_option", "label": "Sonstiges" }
+        ],
+        "successHeadline": "Danke — deine Anfrage ist bei uns",
+        "successText": "Wir melden uns meist innerhalb eines Werktags.",
+        "consentLabel": "Ich willige ein, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. Mehr in der {{link}}.",
+        "privacyUrl": "/datenschutz"
+      },
+      {
+        "component": "cta_section",
+        "headline": "Bereit für deinen LKW-Schein?",
+        "description": "Ruf an, schreib auf WhatsApp oder lass uns deine Förderung prüfen. Start jederzeit möglich.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "ink",
+            "icon": "phone"
+          },
+          {
+            "component": "cta_button",
+            "label": "WhatsApp",
+            "link": { "linktype": "url", "url": "https://wa.me/491743838353" },
+            "variant": "white",
+            "icon": "whatsapp"
+          },
+          {
+            "component": "cta_button",
+            "label": "Online anmelden",
+            "link": { "linktype": "url", "url": "https://fs0943.fso360-svc.de" },
+            "variant": "outline",
+            "icon": "arrow"
+          }
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "LKW-Führerschein & BKF in Bad Iburg & Hilter | Yakups Fahrschule",
+        "description": "Klasse C, CE und BKF-Grundqualifikation — AZAV-zertifiziert, bis zu 100 % durch die Arbeitsagentur gefördert. Moderne Flotte, Start jederzeit, Arbeitgeber-Vermittlung."
+      }
+    ]
+  }
+}

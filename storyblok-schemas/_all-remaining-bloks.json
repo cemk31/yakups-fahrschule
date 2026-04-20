@@ -1,0 +1,674 @@
+{
+  "lkw_spotlight": {
+    "name": "lkw_spotlight",
+    "display_name": "LKW Spotlight",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibungstext"
+      },
+      "primaryCtaLabel": {
+        "type": "text",
+        "display_name": "Primärer CTA - Text"
+      },
+      "primaryCtaLink": {
+        "type": "multilink",
+        "display_name": "Primärer CTA - Link"
+      },
+      "secondaryCtaLabel": {
+        "type": "text",
+        "display_name": "Sekundärer CTA - Text"
+      },
+      "secondaryCtaLink": {
+        "type": "multilink",
+        "display_name": "Sekundärer CTA - Link"
+      },
+      "steps": {
+        "type": "bloks",
+        "display_name": "Schritte",
+        "restrict_components": true,
+        "component_whitelist": [
+          "spotlight_step"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "spotlight_step": {
+    "name": "spotlight_step",
+    "display_name": "Spotlight Step",
+    "schema": {
+      "title": {
+        "type": "text",
+        "display_name": "Titel",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben (grün)",
+        "description": "Markiert den Endpunkt des Prozesses"
+      },
+      "spanFull": {
+        "type": "boolean",
+        "display_name": "Volle Breite",
+        "description": "Über beide Spalten"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "process_steps": {
+    "name": "process_steps",
+    "display_name": "Process Steps",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "variant": {
+        "type": "option",
+        "display_name": "Variante",
+        "options": [
+          {
+            "name": "Dunkel",
+            "value": "dark"
+          },
+          {
+            "name": "Hell",
+            "value": "light"
+          }
+        ]
+      },
+      "steps": {
+        "type": "bloks",
+        "display_name": "Schritte",
+        "restrict_components": true,
+        "component_whitelist": [
+          "process_step"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "process_step": {
+    "name": "process_step",
+    "display_name": "Process Step",
+    "schema": {
+      "title": {
+        "type": "text",
+        "display_name": "Titel",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "duration": {
+        "type": "text",
+        "display_name": "Dauer",
+        "description": "z.B. '~ 1 Woche'"
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben (grün)"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "pricing_table": {
+    "name": "pricing_table",
+    "display_name": "Pricing Table",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "columnLabels": {
+        "type": "text",
+        "display_name": "Spalten-Labels (komma-getrennt)",
+        "default_value": "Klasse,Grundbetrag,Theorie,Praxis,Richtwert gesamt"
+      },
+      "rows": {
+        "type": "bloks",
+        "display_name": "Preiszeilen",
+        "restrict_components": true,
+        "component_whitelist": [
+          "price_row"
+        ]
+      },
+      "footnote": {
+        "type": "textarea",
+        "display_name": "Fußnote"
+      },
+      "promoBox": {
+        "type": "bloks",
+        "display_name": "Promo-Box (Förderung)",
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "promo_box"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "price_row": {
+    "name": "price_row",
+    "display_name": "Price Row",
+    "schema": {
+      "licenseClass": {
+        "type": "text",
+        "display_name": "Klasse",
+        "required": true
+      },
+      "basicFee": {
+        "type": "text",
+        "display_name": "Grundbetrag"
+      },
+      "theoryFee": {
+        "type": "text",
+        "display_name": "Theorie"
+      },
+      "practiceFee": {
+        "type": "text",
+        "display_name": "Praxis"
+      },
+      "totalFee": {
+        "type": "text",
+        "display_name": "Richtwert gesamt",
+        "required": true
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "promo_box": {
+    "name": "promo_box",
+    "display_name": "Promo Box",
+    "schema": {
+      "title": {
+        "type": "text",
+        "display_name": "Titel",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "ctaLabel": {
+        "type": "text",
+        "display_name": "CTA-Text"
+      },
+      "ctaLink": {
+        "type": "multilink",
+        "display_name": "CTA-Link"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "locations_map": {
+    "name": "locations_map",
+    "display_name": "Locations Map",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "locations": {
+        "type": "bloks",
+        "display_name": "Standorte",
+        "restrict_components": true,
+        "component_whitelist": [
+          "location_item"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "location_item": {
+    "name": "location_item",
+    "display_name": "Location Item",
+    "schema": {
+      "name": {
+        "type": "text",
+        "display_name": "Name",
+        "required": true
+      },
+      "address": {
+        "type": "text",
+        "display_name": "Adresse",
+        "required": true
+      },
+      "phone": {
+        "type": "text",
+        "display_name": "Telefon"
+      },
+      "mapImage": {
+        "type": "asset",
+        "display_name": "Karten-Screenshot",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "mapLink": {
+        "type": "multilink",
+        "display_name": "Google Maps Link"
+      },
+      "badge": {
+        "type": "text",
+        "display_name": "Badge"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "blog_teaser": {
+    "name": "blog_teaser",
+    "display_name": "Blog Teaser",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "sideLinkLabel": {
+        "type": "text",
+        "display_name": "Seitenlink-Text",
+        "default_value": "Zum Blog"
+      },
+      "sideLinkUrl": {
+        "type": "text",
+        "display_name": "Seitenlink-URL",
+        "default_value": "/news"
+      },
+      "maxPosts": {
+        "type": "number",
+        "display_name": "Anzahl Posts",
+        "default_value": 3
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "reviews_section": {
+    "name": "reviews_section",
+    "display_name": "Reviews Section",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "averageRating": {
+        "type": "text",
+        "display_name": "Ø Bewertung",
+        "default_value": "4,9"
+      },
+      "totalCount": {
+        "type": "text",
+        "display_name": "Anzahl-Text",
+        "default_value": "Aus 87 verifizierten Google-Bewertungen"
+      },
+      "items": {
+        "type": "bloks",
+        "display_name": "Bewertungen",
+        "restrict_components": true,
+        "component_whitelist": [
+          "review_item"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "review_item": {
+    "name": "review_item",
+    "display_name": "Review Item",
+    "schema": {
+      "text": {
+        "type": "textarea",
+        "display_name": "Bewertungstext",
+        "required": true
+      },
+      "author": {
+        "type": "text",
+        "display_name": "Autor",
+        "required": true
+      },
+      "initials": {
+        "type": "text",
+        "display_name": "Initialen (2 Buchstaben)"
+      },
+      "context": {
+        "type": "text",
+        "display_name": "Kontext",
+        "description": "z.B. 'Klasse CE · März 2026'"
+      },
+      "rating": {
+        "type": "number",
+        "display_name": "Sterne (1-5)",
+        "default_value": 5
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "cta_section": {
+    "name": "cta_section",
+    "display_name": "CTA Section",
+    "schema": {
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "buttons": {
+        "type": "bloks",
+        "display_name": "Buttons",
+        "maximum": 3,
+        "restrict_components": true,
+        "component_whitelist": [
+          "cta_button"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "cta_button": {
+    "name": "cta_button",
+    "display_name": "CTA Button",
+    "schema": {
+      "label": {
+        "type": "text",
+        "display_name": "Label",
+        "required": true
+      },
+      "link": {
+        "type": "multilink",
+        "display_name": "Link"
+      },
+      "variant": {
+        "type": "option",
+        "display_name": "Variante",
+        "required": true,
+        "options": [
+          {
+            "name": "Schwarz",
+            "value": "ink"
+          },
+          {
+            "name": "Weiß",
+            "value": "white"
+          },
+          {
+            "name": "Outline",
+            "value": "outline"
+          }
+        ]
+      },
+      "icon": {
+        "type": "option",
+        "display_name": "Icon",
+        "options": [
+          {
+            "name": "Telefon",
+            "value": "phone"
+          },
+          {
+            "name": "WhatsApp",
+            "value": "whatsapp"
+          },
+          {
+            "name": "Pfeil",
+            "value": "arrow"
+          }
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "value_cards": {
+    "name": "value_cards",
+    "display_name": "Value Cards",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "columns": {
+        "type": "option",
+        "display_name": "Spalten",
+        "default_value": "3",
+        "options": [
+          {
+            "name": "2 Spalten",
+            "value": "2"
+          },
+          {
+            "name": "3 Spalten",
+            "value": "3"
+          }
+        ]
+      },
+      "cards": {
+        "type": "bloks",
+        "display_name": "Karten",
+        "restrict_components": true,
+        "component_whitelist": [
+          "value_card"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "value_card": {
+    "name": "value_card",
+    "display_name": "Value Card",
+    "schema": {
+      "icon": {
+        "type": "option",
+        "display_name": "Icon",
+        "required": true,
+        "options": [
+          {
+            "name": "Schild",
+            "value": "shield"
+          },
+          {
+            "name": "LKW",
+            "value": "truck"
+          },
+          {
+            "name": "Karte",
+            "value": "card"
+          },
+          {
+            "name": "Haus",
+            "value": "house"
+          },
+          {
+            "name": "Gebäude",
+            "value": "building"
+          }
+        ]
+      },
+      "title": {
+        "type": "text",
+        "display_name": "Titel",
+        "required": true
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "badge": {
+        "type": "text",
+        "display_name": "Badge"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "license_class_grid": {
+    "name": "license_class_grid",
+    "display_name": "License Class Grid",
+    "schema": {
+      "tagline": {
+        "type": "text",
+        "display_name": "Tagline"
+      },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Beschreibung"
+      },
+      "classes": {
+        "type": "bloks",
+        "display_name": "Klassen",
+        "restrict_components": true,
+        "component_whitelist": [
+          "license_class_item"
+        ]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "license_class_item": {
+    "name": "license_class_item",
+    "display_name": "License Class Item",
+    "schema": {
+      "className": {
+        "type": "text",
+        "display_name": "Klasse",
+        "required": true,
+        "description": "z.B. 'Klasse C'"
+      },
+      "shortDescription": {
+        "type": "text",
+        "display_name": "Kurzbeschreibung"
+      },
+      "ageBadge": {
+        "type": "text",
+        "display_name": "Alter-Badge",
+        "description": "z.B. 'ab 21 Jahre'"
+      },
+      "highlightBadge": {
+        "type": "text",
+        "display_name": "Hervorhebungs-Badge",
+        "description": "z.B. 'Top-Klasse'"
+      },
+      "whatYouCanDrive": {
+        "type": "textarea",
+        "display_name": "Was du fahren darfst"
+      },
+      "prerequisite": {
+        "type": "text",
+        "display_name": "Voraussetzung"
+      },
+      "typicalDuration": {
+        "type": "text",
+        "display_name": "Typische Dauer"
+      },
+      "approxCost": {
+        "type": "text",
+        "display_name": "Richtkosten"
+      },
+      "highlighted": {
+        "type": "boolean",
+        "display_name": "Hervorgehoben (schwarz)"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

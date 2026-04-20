@@ -1,0 +1,84 @@
+{
+  "contact_form": {
+    "name": "contact_form",
+    "display_name": "Contact Form",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": { "type": "text", "display_name": "Headline", "required": true },
+      "headlineAccent": { "type": "text", "display_name": "Headline-Akzent (grün)" },
+      "description": { "type": "textarea", "display_name": "Beschreibung" },
+      "nameLabel": { "type": "text", "display_name": "Label: Name", "default_value": "Name" },
+      "emailLabel": { "type": "text", "display_name": "Label: E-Mail", "default_value": "E-Mail" },
+      "phoneLabel": {
+        "type": "text",
+        "display_name": "Label: Telefon",
+        "default_value": "Telefon (optional)"
+      },
+      "topicLabel": { "type": "text", "display_name": "Label: Thema", "default_value": "Thema" },
+      "messageLabel": {
+        "type": "text",
+        "display_name": "Label: Nachricht",
+        "default_value": "Deine Nachricht"
+      },
+      "submitLabel": {
+        "type": "text",
+        "display_name": "Button-Text",
+        "default_value": "Nachricht senden"
+      },
+      "topics": {
+        "type": "bloks",
+        "display_name": "Themen-Dropdown (optional)",
+        "restrict_components": true,
+        "component_whitelist": ["topic_option"],
+        "description": "Wenn leer, wird ein freies Text-Feld angezeigt"
+      },
+      "helperText": {
+        "type": "textarea",
+        "display_name": "Hinweis-Text",
+        "description": "z.B. 'Wir antworten innerhalb von 24 Stunden'"
+      },
+      "successHeadline": {
+        "type": "text",
+        "display_name": "Erfolg: Headline",
+        "default_value": "Danke für deine Nachricht!"
+      },
+      "successText": {
+        "type": "textarea",
+        "display_name": "Erfolg: Text",
+        "default_value": "Wir melden uns innerhalb von 24 Stunden bei dir zurück."
+      },
+      "consentLabel": {
+        "type": "textarea",
+        "display_name": "DSGVO-Checkbox-Text",
+        "description": "Platzhalter {{link}} wird durch einen Datenschutz-Link ersetzt",
+        "default_value": "Ich willige ein, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. Mehr in der {{link}}."
+      },
+      "privacyUrl": {
+        "type": "text",
+        "display_name": "Datenschutz-URL",
+        "default_value": "/datenschutz"
+      },
+      "anchorId": {
+        "type": "text",
+        "display_name": "Anchor-ID (optional)",
+        "description": "Für Verlinkung aus Hero-CTA o.ä., z.B. 'foerderung'"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "topic_option": {
+    "name": "topic_option",
+    "display_name": "Topic Option",
+    "schema": {
+      "label": { "type": "text", "display_name": "Label", "required": true },
+      "value": {
+        "type": "text",
+        "display_name": "Wert (optional)",
+        "description": "Wenn leer, wird das Label verwendet"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "seo",
+  "display_name": "SEO",
+  "schema": {
+    "title": {
+      "type": "text",
+      "display_name": "Meta Title",
+      "max_length": 60,
+      "description": "Ideal: 50-60 Zeichen"
+    },
+    "description": {
+      "type": "textarea",
+      "display_name": "Meta Description",
+      "max_length": 160,
+      "description": "Ideal: 150-160 Zeichen"
+    },
+    "ogImage": {
+      "type": "asset",
+      "display_name": "Social Media Bild",
+      "filetypes": ["images"],
+      "description": "Ideal: 1200x630px"
+    },
+    "noindex": {
+      "type": "boolean",
+      "display_name": "Nicht indexieren",
+      "description": "Von Google ausschließen"
+    }
+  },
+  "is_root": false,
+  "is_nestable": true
+}

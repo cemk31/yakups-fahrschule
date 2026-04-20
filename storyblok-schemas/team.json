@@ -1,0 +1,75 @@
+{
+  "team_grid": {
+    "name": "team_grid",
+    "display_name": "Team Grid",
+    "schema": {
+      "tagline": { "type": "text", "display_name": "Tagline" },
+      "headline": {
+        "type": "text",
+        "display_name": "Headline",
+        "required": true
+      },
+      "headlineAccent": {
+        "type": "text",
+        "display_name": "Headline-Akzent (grün)"
+      },
+      "description": {
+        "type": "textarea",
+        "display_name": "Lead-Text (optional)"
+      },
+      "compact": {
+        "type": "boolean",
+        "display_name": "Kompakt-Layout (4 Spalten, ohne Bio)",
+        "description": "An: Foto + Name + Rolle, 4 Spalten. Aus: ausführliche Karten mit Klassen/Bio/Sprachen, 3 Spalten."
+      },
+      "sideLinkLabel": { "type": "text", "display_name": "Seitenlink-Text" },
+      "sideLink": { "type": "multilink", "display_name": "Seitenlink" },
+      "members": {
+        "type": "bloks",
+        "display_name": "Team-Mitglieder",
+        "restrict_components": true,
+        "component_whitelist": ["team_member"]
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  },
+  "team_member": {
+    "name": "team_member",
+    "display_name": "Team Member",
+    "schema": {
+      "name": {
+        "type": "text",
+        "display_name": "Name",
+        "required": true
+      },
+      "role": {
+        "type": "text",
+        "display_name": "Rolle / Funktion",
+        "description": "z.B. 'Inhaber & Fahrlehrer' oder 'Fahrlehrerin Klasse B'"
+      },
+      "photo": {
+        "type": "asset",
+        "display_name": "Foto",
+        "filetypes": ["images"]
+      },
+      "classes": {
+        "type": "text",
+        "display_name": "Fahrlehrer-Klassen (optional)",
+        "description": "Komma-getrennt, z.B. 'B, BE, B96, B197'"
+      },
+      "bio": {
+        "type": "textarea",
+        "display_name": "Kurz-Bio (1-3 Sätze)",
+        "description": "Wird unter den Klassen angezeigt"
+      },
+      "languages": {
+        "type": "text",
+        "display_name": "Sprachen (optional)",
+        "description": "Komma-getrennt, z.B. 'Deutsch, Türkisch, Englisch'"
+      }
+    },
+    "is_root": false,
+    "is_nestable": true
+  }
+}

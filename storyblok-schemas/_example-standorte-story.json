@@ -1,0 +1,166 @@
+{
+  "_comment": "Übersichtsseite /standorte. Teaser-Karten verlinken zu den Detail-Landingpages /bad-iburg und /hilter.",
+  "name": "Standorte",
+  "slug": "standorte",
+  "content": {
+    "component": "page",
+    "title": "Standorte",
+    "body": [
+      {
+        "component": "hero_section",
+        "tagline": "2 Standorte · 1 Team",
+        "headline": "Zwei Standorte",
+        "headlineAccent": "im Osnabrücker Land",
+        "description": "Hauptstandort in Bad Iburg (Münsterstraße 12) und seit März 2026 ein zweiter Standort in Hilter a.T.W. (Münsterstraße 34). Gleiches Team, gleiche Preise, kürzere Wege — du entscheidest, wo du Theorie und Praxis machst.",
+        "primaryCtaLabel": "0174 3838353",
+        "primaryCtaLink": { "linktype": "url", "url": "tel:+491743838353" },
+        "secondaryCtaLabel": "Team ansehen",
+        "secondaryCtaLink": { "linktype": "story", "cached_url": "team" },
+        "imageBadge": "Bad Iburg · Hilter",
+        "stats": [
+          { "component": "hero_stat", "value": "2", "accent": "×", "label": "Standorte" },
+          { "component": "hero_stat", "value": "180", "accent": "m²", "label": "Hauptstandort" },
+          { "component": "hero_stat", "value": "0", "accent": "€", "label": "Standortwechsel-Gebühr" }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Überblick",
+        "headline": "Wähle deinen",
+        "headlineAccent": "Standort",
+        "description": "Beide Standorte werden vom selben Team betreut. Du kannst im laufenden Kurs wechseln, ohne nachzuzahlen — praktisch, wenn sich dein Alltag ändert.",
+        "columns": "2",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "house",
+            "title": "Bad Iburg — Hauptstandort",
+            "description": "Münsterstraße 12, 49186 Bad Iburg\n\n180 m² Schulungszentrum · Theorie Mo + Mi · LKW-Theorie Di + Do · Mo-Fr 10-18 Uhr geöffnet\n\nAlle Klassen (B, BE, A, C, CE, BKF) — komplette Ausbildung vor Ort.",
+            "badge": "Seit 2018"
+          },
+          {
+            "component": "value_card",
+            "icon": "building",
+            "title": "Hilter a.T.W. — Neuer Standort",
+            "description": "Münsterstraße 34, 49176 Hilter a.T.W.\n\nTheorieraum bis 18 Pers. · Theorie Di + Do, 17-19 Uhr · Anmeldung & Beratung nach Termin\n\nKlasse B komplett vor Ort · Motorrad/LKW: Theorie hier, Praxis Bad Iburg.",
+            "badge": "Seit März 2026"
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Bad Iburg im Detail ansehen.",
+        "description": "Unterrichtsräume, Klassen-Übersicht, Öffnungszeiten, Reviews und Anfahrt zum Hauptstandort.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Zum Standort Bad Iburg",
+            "link": { "linktype": "story", "cached_url": "bad-iburg" },
+            "variant": "ink",
+            "icon": "arrow"
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Hilter im Detail ansehen.",
+        "description": "Öffnungszeiten, welche Klassen hier starten, Anfahrt und Reviews vom neuen Standort.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "Zum Standort Hilter",
+            "link": { "linktype": "story", "cached_url": "hilter" },
+            "variant": "ink",
+            "icon": "arrow"
+          }
+        ]
+      },
+      {
+        "component": "locations_map",
+        "tagline": "Anfahrt",
+        "headline": "Hier findest du",
+        "headlineAccent": "uns",
+        "locations": [
+          {
+            "component": "location_item",
+            "name": "Bad Iburg",
+            "address": "Münsterstraße 12, 49186 Bad Iburg",
+            "phone": "0174 3838353",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Münsterstraße+12+Bad+Iburg"
+            },
+            "badge": "Hauptstandort"
+          },
+          {
+            "component": "location_item",
+            "name": "Hilter a.T.W.",
+            "address": "Münsterstraße 34, 49176 Hilter a.T.W.",
+            "phone": "0174 3838353",
+            "mapLink": {
+              "linktype": "url",
+              "url": "https://maps.google.com/?q=Münsterstraße+34+Hilter"
+            },
+            "badge": "Neu"
+          }
+        ]
+      },
+      {
+        "component": "value_cards",
+        "tagline": "Wechseln ohne Haken",
+        "headline": "Ein Kurs,",
+        "headlineAccent": "zwei Standorte",
+        "description": "Warum beide Standorte? Weil wir merken, dass Leben und Arbeitsplatz sich nicht am Fahrschul-Kalender ausrichten. Du sollst wechseln können, ohne dass es wehtut.",
+        "columns": "3",
+        "cards": [
+          {
+            "component": "value_card",
+            "icon": "card",
+            "title": "Gleiche Preise",
+            "description": "Keine 'Hilter-Ausgabe', kein Standort-Aufschlag. Dieselben Grundgebühren, Sonderfahrten und Materialkosten an beiden Standorten."
+          },
+          {
+            "component": "value_card",
+            "icon": "shield",
+            "title": "Nachholen überall",
+            "description": "Verpasste Theoriestunde in Bad Iburg? Hol sie am selben Thema in Hilter nach. Kein Nachholzuschlag, keine Anmeldung nötig."
+          },
+          {
+            "component": "value_card",
+            "icon": "truck",
+            "title": "Selbes Team",
+            "description": "Wir rotieren bewusst — dein Fahrlehrer kann dich auch am anderen Standort unterrichten. So gibt's keine Lotterie, wer dich kriegt."
+          }
+        ]
+      },
+      {
+        "component": "cta_section",
+        "headline": "Unentschieden? Einfach anrufen.",
+        "description": "Welcher Standort für dich besser passt, klären wir in 5 Minuten am Telefon. Keine Anmeldung, kein Verkaufsgespräch — nur eine ehrliche Empfehlung.",
+        "buttons": [
+          {
+            "component": "cta_button",
+            "label": "0174 3838353",
+            "link": { "linktype": "url", "url": "tel:+491743838353" },
+            "variant": "ink",
+            "icon": "phone"
+          },
+          {
+            "component": "cta_button",
+            "label": "Team kennenlernen",
+            "link": { "linktype": "story", "cached_url": "team" },
+            "variant": "outline",
+            "icon": "arrow"
+          }
+        ]
+      }
+    ],
+    "seo": [
+      {
+        "component": "seo",
+        "title": "Standorte Bad Iburg & Hilter | Yakups Fahrschule",
+        "description": "Yakups Fahrschule hat zwei Standorte: Bad Iburg (Münsterstraße 12) und Hilter a.T.W. (Münsterstraße 34). Gleiches Team, gleiche Preise, kurze Wege im Osnabrücker Land."
+      }
+    ]
+  }
+}

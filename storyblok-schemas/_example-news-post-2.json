@@ -1,0 +1,160 @@
+{
+  "_comment": "Beispiel-Blog-Post: BKF-Förderung 2026 erklärt",
+  "name": "BKF-Förderung 2026 — so bekommst du den LKW-Schein bezahlt",
+  "slug": "news/bkf-foerderung-2026",
+  "content": {
+    "component": "blog_post",
+    "title": "BKF-Förderung 2026 — so bekommst du den LKW-Schein bezahlt",
+    "excerpt": "Bildungsgutschein, Qualifizierungschancengesetz, Aufstiegs-BAföG — wir erklären, welche Förderung 2026 für wen passt und wie die ersten Schritte aussehen.",
+    "category": "Foerderung",
+    "tags": "LKW, BKF, Bildungsgutschein, Agentur für Arbeit",
+    "publishedDate": "2026-03-28 10:30",
+    "authorName": "Yakup Yılmaz",
+    "readingTime": "5 Min.",
+    "sourceNetwork": "manual",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Der LKW-Schein ist teuer — aber in sehr vielen Fällen zahlt ihn jemand anderes. 2026 gibt es vier Wege, die wir regelmäßig sehen, und je nach deiner Situation passt davon einer (oder mehrere) zu dir."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "1. Bildungsgutschein (Arbeitsagentur / Jobcenter)" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            { "type": "text", "text": "Der Klassiker. Wenn du arbeitssuchend bist oder dein aktueller Job wegfällt, bekommst du oft einen Bildungsgutschein über die Agentur für Arbeit. Wir sind " },
+            { "type": "text", "marks": [{ "type": "bold" }], "text": "AZAV-zertifiziert" },
+            { "type": "text", "text": " — das ist die Voraussetzung dafür, dass die Agentur bei uns überhaupt einen Gutschein einlöst. Damit sind Gesamtkosten bis 100 % abgedeckt." }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "2. Qualifizierungschancengesetz (für Berufstätige)" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Seltener bekannt, aber für Angestellte oft die bessere Variante: Dein aktueller Arbeitgeber stellt den Antrag mit, die Agentur zahlt — je nach Unternehmensgröße — 25 bis 100 % der Weiterbildungskosten. Gerade bei LKW- und BKF-Qualifizierung für Lagerist:innen oder Auslieferungsfahrer:innen läuft das gut."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "3. Arbeitgeber zahlt direkt" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Speditionen und Logistiker suchen händeringend Fahrer:innen. Einige unserer Teilnehmer:innen werden schon während der Ausbildung von einem Unternehmen übernommen, das die Kosten gegen Verpflichtung auf zwei Jahre komplett übernimmt. Wir haben Kontakte zu regionalen Betrieben, bei denen das funktioniert — sprich uns einfach an."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "4. Aufstiegs-BAföG" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Für die BKF-Grundqualifikation als anerkannte Aufstiegsfortbildung kann in bestimmten Konstellationen Aufstiegs-BAföG genutzt werden. Das ist eher die Ausnahme und lohnt sich nur, wenn keine der oberen Optionen passt — wir prüfen das mit dir im Beratungsgespräch."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "So ist der Ablauf bei uns" }]
+        },
+        {
+          "type": "ordered_list",
+          "content": [
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Kostenloses Beratungsgespräch (30 Minuten, telefonisch oder vor Ort)" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Wir klären gemeinsam deinen Förderweg und stellen dir ein unverbindliches Angebot aus" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Du reichst Gutschein / Antrag bei der Agentur ein — wir unterstützen mit den nötigen Unterlagen" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "list_item",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    { "type": "text", "text": "Start sobald der Bescheid da ist (meist 2-4 Wochen)" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "blockquote",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Tipp: Ruf uns erst an, bevor du einen Antrag stellst. Wir sehen oft, dass Leute den falschen Topf beantragen — das verzögert den Start um Monate."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "seo": [
+      {
+        "component": "seo",
+        "title": "BKF & LKW-Führerschein Förderung 2026 | Yakups Fahrschule",
+        "description": "Bildungsgutschein, Qualifizierungschancengesetz & Co. — welche Förderung 2026 zu dir passt und wie du den LKW-Schein bis zu 100 % bezahlt bekommst."
+      }
+    ]
+  }
+}
