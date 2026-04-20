@@ -34,6 +34,9 @@ html {
 body {
   font-family: var(--font-sans);
   line-height: 1.5;
+  /* Safety-Net: verhindert horizontalen Scroll durch dekorative
+     absolute-positioned Elemente (z.B. -right-40) auf sehr schmalen Viewports. */
+  overflow-x: hidden;
 }
 
 /* Fokus-Ring für Accessibility */

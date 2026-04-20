@@ -44,7 +44,7 @@ export function HeroSection({ blok }: Props) {
               </div>
             ) : null}
 
-            <h1 className="mb-4 text-4xl font-medium leading-tight md:text-5xl">
+            <h1 className="mb-4 text-3xl font-medium leading-tight break-words sm:text-4xl md:text-5xl">
               {blok.headline}
               {blok.headlineAccent ? (
                 <span className="text-brand-green">.{blok.headlineAccent}</span>
@@ -81,10 +81,10 @@ export function HeroSection({ blok }: Props) {
             </div>
 
             {blok.stats && blok.stats.length > 0 ? (
-              <div className="flex gap-6 border-t border-brand-border pt-5">
+              <div className="flex flex-wrap gap-x-6 gap-y-4 border-t border-brand-border pt-5">
                 {blok.stats.map((stat) => (
                   <div key={stat._uid}>
-                    <div className="text-2xl font-medium">
+                    <div className="text-xl font-medium sm:text-2xl">
                       {stat.value}
                       {stat.accent ? (
                         <span className="text-brand-green">{stat.accent}</span>

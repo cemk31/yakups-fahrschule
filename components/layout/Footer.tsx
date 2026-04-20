@@ -4,8 +4,8 @@ import { Logo } from "@/components/ui/Logo";
 export function Footer() {
   return (
     <footer className="bg-brand-ink text-[#fafaf7]">
-      <div className="mx-auto w-full max-w-6xl px-6 py-12 md:px-12">
-        <div className="mb-8 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+      <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 md:px-12">
+        <div className="mb-8 grid gap-10 sm:grid-cols-2 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <div className="mb-4">
               <Logo />
